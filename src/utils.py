@@ -1,5 +1,12 @@
 import numpy as np
-import csv
+import csv,json
+
+def save_log_to_json(log, out_file="results/log.json"):
+    with open(out_file, 'w') as f:
+        # 3. Use json.dump() to write the data to the file
+        # 'indent' argument makes the JSON output more readable
+        json.dump(log, f, indent=4)
+    print(f"Data successfully saved to {out_file}")
 
 def generate_pace_notes(log, track, out_file="results/pace_notes.txt"):
     """
