@@ -39,6 +39,10 @@ control = {
 }
 
 speed = {
-    "v_min": 8.33,     # 30 km/h
-    "v_max": 11.11    # 40 km/h
+    # speed bounds (convert km/h to m/s)
+    'v_soft_min': 8.3,     # 30 km/h
+    'v_soft_max': 11.1,    # 40 km/h
+
+    'v_hard_min': 5.6,     # 20 km/h
+    'v_hard_max': 13.9,    # 50 km/h
 }

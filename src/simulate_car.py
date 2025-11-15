@@ -227,64 +227,107 @@ def run_simulation(track, cfg,
 # ======= Random Shooting MPC ==============
 # ==========================================
 
-def mpc_cost(traj, control_seq, track, cfg):
+def mpc_cost(traj, control_seq, track, cfg, t_now, dt):
     J = 0.0
 
-    # speed limits in m/s
-    v_min = speed["v_min"]   
-    v_max = speed["v_max"] 
+    # speed bounds (convert km/h to m/s)
+    v_soft_min = speed['v_soft_min']     # 30 km/h
+    v_soft_max = speed['v_soft_max']    # 40 km/h
+
+    v_hard_min = speed['v_hard_min']     # 20 km/h
+    v_hard_max = speed['v_hard_max']    # 50 km/h
+
+    BIG_PENALTY = 1e6
+    MEDIUM_PENALTY = 2e4
+
+    v_values = []
 
     for k in range(len(traj)):
         st = traj[k]
         u = control_seq[k]
 
+        # ===========================
+        # SPEED COST
+        # ===========================
+        v = max(0.0, st["v"])
+        v_values.append(v)
+
+        # 1. Hard speed bounds (super strict)
+        if v < v_hard_min or v > v_hard_max:
+            J += BIG_PENALTY
+
+        # 2. Soft speed bounds (inside 30–40 km/h)
+        elif v < v_soft_min:
+            # slower than 30 → penalty gets worse as you drop
+            J += MEDIUM_PENALTY * (v_soft_min - v)**2
+
+        elif v > v_soft_max:
+            # faster than 40 → penalty gets worse as you exceed
+            J += MEDIUM_PENALTY * (v - v_soft_max)**2
+
+        # 3. Incentive for accelerating early
+        if st["s"] < 10.0:  
+            # reward higher speeds in first 10 meters
+            J -= 200.0 * v
+
+        # ===========================
+        # TRACK HEADING ERROR
+        # ===========================
         psi_ref = np.interp(st["s"] % track.length_m, track.s_m, track.heading_rad)
         psi_err = st["yaw"] - psi_ref
+        J += 6.0 * psi_err**2
 
-        v = st["v"]
+        # ===========================
+        # LATERAL ERROR
+        # ===========================
+        J += 12.0 * st["ey"]**2
 
-        # ---------------------------------------------------
-        # 🔥 ENERGY SURROGATE
-        P = v * v
-        J_energy = 1.0 * P / max(0.3, v)
+        # ===========================
+        # ENERGY SURROGATE
+        # ===========================
+        # encourage slower speeds inside band (efficiency)
+        J += 0.2 * (v**2)
 
-        # ---------------------------------------------------
-        # 🔥 LATERAL ERROR
-        J_lat = 10.0 * (st["ey"] ** 2)
-
-        # ---------------------------------------------------
-        # 🔥 HEADING ERROR
-        J_head = 5.0 * (psi_err ** 2)
-
-        # ---------------------------------------------------
-        # 🔥 SPEED-WINDOW PENALTY
-        if v < v_min:
-            # too slow (BIG penalty)
-            J_speed = 50.0 * (v_min - v) ** 2
-        elif v > v_max:
-            # too fast (even BIGGER penalty)
-            J_speed = 80.0 * (v - v_max) ** 2
-        else:
-            # in the sweet spot
-            J_speed = 0.0
-
-        # ---------------------------------------------------
-        # 🔥 CONTROL SMOOTHNESS
+        # ===========================
+        # CONTROL SMOOTHNESS
+        # ===========================
         if k > 0:
             du_t = control_seq[k][0] - control_seq[k-1][0]
             du_s = control_seq[k][1] - control_seq[k-1][1]
-            J_smooth = 2.0 * (du_t**2 + du_s**2)
-        else:
-            J_smooth = 0.0
+            J += 2.0 * (du_t**2 + du_s**2)
 
-        # ---------------------------------------------------
-        # TOTAL COST
-        J += J_energy + J_lat + J_head + J_speed + J_smooth
+        # ==========================================================
+        # PROGRESS PENALTY — must reach certain distance by time
+        # ==========================================================
+        L = track.length_m
+        total_distance = 4 * L
+        total_time = 1800.0  # 30 min
+
+        v_avg_required = total_distance / total_time  # m/s
+
+        t_k = t_now + k * dt  # <-- FIXED HERE
+
+        s_target = v_avg_required * t_k
+
+        margin = 5.0  # meters allowed behind
+
+        if st["s"] < s_target - margin:
+            J += 3e5 * (s_target - st["s"])**2
+
+
+
+    # ===================================================================
+    # GLOBAL PREDICTION PENALTY (mean speed must stay above threshold)
+    # ===================================================================
+    avg_v = np.mean(v_values)
+
+    if avg_v < v_soft_min * 0.9:   # below ~27 km/h average
+        J += 5e5
 
     return J
 
 
-def mpc_solve_step(state, track, cfg, dt=0.1, H=10, K=300):
+def mpc_solve_step(state, track, cfg, t_now, dt=0.1, H=10, K=300):
     best_cost = float("inf")
     best_action = (0.0, 0.0)
 
@@ -309,7 +352,7 @@ def mpc_solve_step(state, track, cfg, dt=0.1, H=10, K=300):
             traj.append(st)
 
         # evaluate cost
-        J = mpc_cost(traj, control_seq, track, cfg)
+        J = mpc_cost(traj, control_seq, track, cfg, t_now, dt=dt)
 
         # update best
         if J < best_cost:
@@ -318,7 +361,7 @@ def mpc_solve_step(state, track, cfg, dt=0.1, H=10, K=300):
 
     return {"throttle": best_action[0], "steer": best_action[1]}
 
-def run_mpc_simulation(track, cfg, dt=0.1, debug_step=20):
+def run_mpc_simulation(track, cfg, dt=0.1, debug_step=60):
     state = {
         "x": track.x_m[0],
         "y": track.y_m[0],
@@ -346,7 +389,9 @@ def run_mpc_simulation(track, cfg, dt=0.1, debug_step=20):
             control = {"throttle": limp_throttle, "steer": 0.0}
         else:
             # MPC chooses the next control
-            control = mpc_solve_step(state, track, cfg, dt=dt, H=10, K=200)
+            control = mpc_solve_step(state, track, cfg, dt=dt, H=10, K=200, t_now=t)
+
+
 
         # debug every debug_step
         if int(t/dt) % debug_step == 0:
