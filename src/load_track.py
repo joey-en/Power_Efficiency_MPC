@@ -170,3 +170,104 @@ def plot_track_3d(track: Track):
     ax.set_title("3D Track Visualization")
     plt.tight_layout()
     plt.show()
+
+
+def animate_car_with_telemetry(log, track, cfg):
+    plt.figure(figsize=(7,7))
+
+    # Preload arrays for speed, slope, etc.
+    s_values = np.array(log["s"])
+    v_values = np.array(log["v"])
+    throttle_values = np.array(log.get("throttle", [0]*len(s_values)))
+    steer_values = np.array(log.get("steer", [0]*len(s_values)))
+
+    # compute slope/grade (%) along the entire log
+    slope_values = np.interp(s_values % track.length_m, track.s_m, track.grade) * 100.0
+
+    for i in range(0, len(log["x"]), 50):  # skip frames for speed
+
+        plt.clf()
+
+        # --- Track centerline ---
+        plt.plot(track.x_m, track.y_m, 'k--', linewidth=1, label="Track")
+
+        # --- Car trajectory up to current time ---
+        plt.plot(log["x"][:i], log["y"][:i], 'b-', linewidth=1.2, label="Car path")
+
+        # --- Current car position ---
+        plt.scatter(log["x"][i], log["y"][i], color='red', s=40)
+
+        # --- Telemetry text block ---
+        speed_kmh = v_values[i] * 3.6
+        throttle_pct = throttle_values[i] * 100
+        steer_deg = np.rad2deg(steer_values[i])
+        slope_pct = slope_values[i]
+
+        telemetry = (
+            f"Time: {log['time'][i]:.1f} s\n"
+            f"Speed: {speed_kmh:.1f} km/h\n"
+            f"Throttle: {throttle_pct:.1f}%\n"
+            f"Steer: {steer_deg:.1f}°\n"
+            f"Slope: {slope_pct:.2f}%"
+        )
+
+        plt.text(
+            0.02, 0.98, telemetry,
+            transform=plt.gca().transAxes,
+            fontsize=10, family='monospace',
+            verticalalignment='top',
+            bbox=dict(facecolor='white', alpha=0.7, edgecolor='none')
+        )
+
+        # --- Plot formatting ---
+        plt.title("Car Simulation with Telemetry")
+        plt.xlabel("x [m]")
+        plt.ylabel("y [m]")
+        plt.gca().set_aspect("equal", "box")
+        plt.grid(True)
+
+        plt.pause(0.001)
+
+    plt.show()
+    
+def plot_simulation_metrics(log):
+    time = np.array(log["time"])
+    v = np.array(log["v"])
+    throttle = np.array(log["throttle"])
+    steer = np.array(log["steer"])
+    slope = np.array(log["slope"])
+
+    fig, axs = plt.subplots(4, 1, figsize=(10, 12), sharex=True)
+
+    # ---- 1. Speed ----
+    axs[0].plot(time, v, label="Speed (m/s)", color='b')
+    axs[0].set_ylabel("Speed (m/s)")
+    axs[0].grid(True)
+    axs[0].set_title("Vehicle Speed, Throttle, Steering, and Track Slope")
+
+    # ---- 2. Throttle ----
+    axs[1].plot(time, throttle, label="Throttle", color='g')
+    axs[1].set_ylabel("Throttle")
+    axs[1].set_ylim([-0.05, 1.0])
+    axs[1].grid(True)
+
+    # ---- 3. Steering ----
+    axs[2].plot(time, steer, label="Steer (rad)", color='orange')
+    axs[2].set_ylabel("Steer (rad)")
+    axs[2].grid(True)
+
+    # ---- 4. Slope (secondary axis) ----
+    ax4 = axs[3]
+    ax4.plot(time, slope, label="Slope (grade)", color='purple')
+    ax4.set_ylabel("Slope (m/m)")
+    ax4.grid(True)
+
+    # Secondary y-axis with slope in percent
+    ax4b = ax4.twinx()
+    ax4b.plot(time, slope * 100, color='red', alpha=0.4)
+    ax4b.set_ylabel("Slope (%)")
+
+    axs[3].set_xlabel("Time (s)")
+
+    plt.tight_layout()
+    plt.show()
