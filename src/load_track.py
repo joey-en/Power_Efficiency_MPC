@@ -18,7 +18,7 @@ class Track:
 
 
 def load_track_from_csv(
-    file_path="/content/sem_apme_2025-track_coordinates.csv"
+    file_path="/sem_apme_2025-track_coordinates.csv"
 ) -> Track:
 
     df = pd.read_csv(file_path, sep="\t")
@@ -116,3 +116,57 @@ def get_track_props(track, s):
     grade = np.interp(s, track.s_m, track.grade)
 
     return x, y, heading, curvature, grade
+
+# =========================================================
+# ================== Plotting Functions ===================
+# =========================================================
+
+from mpl_toolkits.mplot3d import Axes3D
+def plot_track(track: Track, show_start=True):
+
+    plt.figure(figsize=(6, 6))
+    plt.plot(track.x_m, track.y_m, linewidth=1.5)
+
+    if show_start:
+        plt.scatter(track.x_m[0], track.y_m[0], color="red")
+        plt.text(track.x_m[0], track.y_m[0], " START", fontsize=8)
+
+    plt.gca().set_aspect("equal", "box")
+    plt.xlabel("x [m]")
+    plt.ylabel("y [m]")
+    plt.title("Lusail Track Centerline")
+    plt.grid(True)
+    plt.show()
+
+def plot_track_altitude(track: Track):
+    """
+    Plot altitude vs distance along track.
+    """
+    plt.figure(figsize=(8, 4))
+    plt.plot(track.s_m, track.altitude_m, linewidth=1.5)
+    plt.xlabel("Distance along track [m]")
+    plt.ylabel("Altitude [m]")
+    plt.title("Altitude Profile of Track")
+    plt.grid(True)
+    plt.show()
+
+
+def plot_track_3d(track: Track):
+    """
+    3D visualization of track centerline using (x, y, altitude).
+    """
+    fig = plt.figure(figsize=(7, 7))
+    ax = fig.add_subplot(111, projection="3d")
+
+    ax.plot3D(track.x_m, track.y_m, track.altitude_m, linewidth=1.5)
+
+    # Mark start
+    ax.scatter(track.x_m[0], track.y_m[0], track.altitude_m[0], color="red", s=40)
+    ax.text(track.x_m[0], track.y_m[0], track.altitude_m[0], " START")
+
+    ax.set_xlabel("x [m]")
+    ax.set_ylabel("y [m]")
+    ax.set_zlabel("Altitude [m]")
+    ax.set_title("3D Track Visualization")
+    plt.tight_layout()
+    plt.show()
