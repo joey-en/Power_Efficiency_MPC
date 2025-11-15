@@ -1,3 +1,0 @@
-casadi
-numpy
-scipy
