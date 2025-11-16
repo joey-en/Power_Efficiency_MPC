@@ -1,7 +1,9 @@
 import numpy as np
 import csv,json
+import os
 
 def save_log_to_json(log, out_file="results/log.json"):
+    os.makedirs(os.path.dirname(out_file), exist_ok=True)
     with open(out_file, 'w') as f:
         # 3. Use json.dump() to write the data to the file
         # 'indent' argument makes the JSON output more readable
@@ -12,6 +14,7 @@ def generate_pace_notes(log, track, out_file="results/pace_notes.txt"):
     """
     Convert raw MPC logs into human-readable driving instructions.
     """
+    
     s_arr = np.array(log["s"])
     v_arr = np.array(log["v"])
     throttle_arr = np.array(log["throttle"])
@@ -22,6 +25,7 @@ def generate_pace_notes(log, track, out_file="results/pace_notes.txt"):
     slope = np.interp(s_arr % track.length_m, track.s_m, track.grade)
 
     # Open file for writing
+    os.makedirs(os.path.dirname(out_file), exist_ok=True)
     with open(out_file, "w") as f:
         f.write("=== Driving Instructions (Pace Notes) ===\n")
         f.write("Generated from MPC Simulation\n\n")
@@ -79,6 +83,7 @@ def export_mpc_csv(log, track, out_file="results/driving_instructions.csv"):
     curvature = np.interp(s_arr % track.length_m, track.s_m, track.curvature)
     slope = np.interp(s_arr % track.length_m, track.s_m, track.grade)
 
+    os.makedirs(os.path.dirname(out_file), exist_ok=True)
     with open(out_file, "w", newline="") as f:
         writer = csv.writer(f)
         writer.writerow([
