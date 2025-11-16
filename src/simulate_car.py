@@ -110,6 +110,7 @@ def simulate_vehicle_step(state, control, track, cfg, dt):
 
     soc_next = soc - (energy_used_Wh / cfg["battery_Wh"])
     soc_next = max(0.0, soc_next)
+    energy_used_J = P_elec * dt
 
     # ----------------------------
     # 7. Return next state
@@ -122,6 +123,8 @@ def simulate_vehicle_step(state, control, track, cfg, dt):
         "s": s_next,
         "ey": ey_next,
         "soc": soc_next,
+        "energy_J": energy_used_J,   # NEW
+        "slope": slope_ref,          # NEW
     }
 
 
@@ -168,7 +171,11 @@ def run_simulation(track, cfg,
         "throttle": [],
         "steer": [],
         "slope": [],
+        "energy_J": [],        # per-step energy
+        "energy_J_total": [],  # NEW: cumulative energy
     }
+
+    cumulative_energy_J = 0.0   # NEW
 
     # ------------------------------------
     # SIMULATION LOOP
@@ -179,18 +186,14 @@ def run_simulation(track, cfg,
         # track reference based on current position
         _, _, psi_ref, _, slope_ref = get_track_props(track, state["s"])
 
-        # simple steering controller: track-heading following
-        control = mpc_solve_step(state, track, cfg, dt=dt, H=10, K=300)
-
-        # steer_cmd = k_steer * (psi_ref - state["yaw"])
-        # # control input
-        # control = {
-        #     "throttle": throttle_command,
-        #     "steer": steer_cmd
-        # }
+        # use MPC (now passing t_now)
+        control = mpc_solve_step(state, track, cfg, t_now=t, dt=dt, H=20, K=1000)
 
         # propagate dynamics
         state = simulate_vehicle_step(state, control, track, cfg, dt)
+
+        # update cumulative energy
+        cumulative_energy_J += state["energy_J"]
 
         # ------------------------------------
         # LOG DATA
@@ -203,11 +206,11 @@ def run_simulation(track, cfg,
         log["s"].append(state["s"])
         log["ey"].append(state["ey"])
         log["soc"].append(state["soc"])
-        log["throttle"].append(throttle_command)
-        log["slope"].append(slope_ref)
-        log.setdefault("throttle", []).append(control["throttle"])
-        log.setdefault("steer", []).append(control["steer"])
-
+        log["throttle"].append(control["throttle"])
+        log["steer"].append(control["steer"])
+        log["slope"].append(state["slope"])
+        log["energy_J"].append(state["energy_J"])
+        log["energy_J_total"].append(cumulative_energy_J)   # NEW
 
         # increment time
         t += dt
@@ -220,8 +223,10 @@ def run_simulation(track, cfg,
     print(f"Distance traveled: {state['s']:.1f} m")
     print(f"Laps completed: {state['s']/track.length_m:.2f}")
     print(f"SOC remaining: {state['soc']*100:.2f}%")
+    print(f"Total energy used: {cumulative_energy_J:.1f} J")  # optional
 
     return log, state
+
 
 # ==========================================
 # ======= Random Shooting MPC ==============
@@ -314,6 +319,21 @@ def mpc_cost(traj, control_seq, track, cfg, t_now, dt):
         if st["s"] < s_target - margin:
             J += 3e5 * (s_target - st["s"])**2
 
+        # ===========================
+        # WRONG-WAY PENALTY
+        # ===========================
+        # car heading should align with track heading
+        yaw_err = psi_err  # already computed
+        # if cos(yaw_err) < 0 → pointing backwards
+        if np.cos(yaw_err) < 0:
+            J += BIG_PENALTY * 50   # extremely heavy penalty
+
+        # car progress should always be forward
+        ds_pred = st["v"] * np.cos(yaw_err) * dt
+        if ds_pred < -0.1:  # going backwards > 0.1 m
+            J += BIG_PENALTY * 50
+
+
 
 
     # ===================================================================
@@ -327,7 +347,7 @@ def mpc_cost(traj, control_seq, track, cfg, t_now, dt):
     return J
 
 
-def mpc_solve_step(state, track, cfg, t_now, dt=0.1, H=10, K=300):
+def mpc_solve_step(state, track, cfg, t_now, dt=0.1, H=20, K=1000):
     best_cost = float("inf")
     best_action = (0.0, 0.0)
 
@@ -361,6 +381,7 @@ def mpc_solve_step(state, track, cfg, t_now, dt=0.1, H=10, K=300):
 
     return {"throttle": best_action[0], "steer": best_action[1]}
 
+
 def run_mpc_simulation(track, cfg, dt=0.1, debug_step=60):
     state = {
         "x": track.x_m[0],
@@ -370,13 +391,21 @@ def run_mpc_simulation(track, cfg, dt=0.1, debug_step=60):
         "s": 0.0,
         "ey": 0.0,
         "soc": 1.0,
+        "slope": 0.0,
+        "energy_J": 0.0,   # NEW: avoid KeyError in early prints
     }
 
     total_distance = 4 * track.length_m
     t = 0.0
     max_time = 1800.0  # 30 minutes safety timeout
 
-    log = { "time": [], "x": [], "y": [], "v": [], "s": [], "yaw": [], "ey": [], "soc": [], "throttle": [], "steer": [] }
+    log = {
+        "time": [], "x": [], "y": [], "v": [], "s": [], "yaw": [],
+        "ey": [], "soc": [], "throttle": [], "steer": [],
+        "slope": [], "energy_J": [], "energy_J_total": []  # NEW key
+    }
+
+    cumulative_energy_J = 0.0   # running total J
 
     while state["s"] < total_distance:
 
@@ -389,21 +418,15 @@ def run_mpc_simulation(track, cfg, dt=0.1, debug_step=60):
             control = {"throttle": limp_throttle, "steer": 0.0}
         else:
             # MPC chooses the next control
-            control = mpc_solve_step(state, track, cfg, dt=dt, H=10, K=200, t_now=t)
+            control = mpc_solve_step(state, track, cfg, t_now=t, dt=dt, H=20, K=1000)
 
-
-
-        # debug every debug_step
-        if int(t/dt) % debug_step == 0:
-            print(f"[t={t:.1f}s] MPC → thr={control['throttle']:.3f}, "
-                  f"steer={np.rad2deg(control['steer']):.2f}°, "
-                  f"v={state['v']:.2f} m/s, ey={state['ey']:.2f}, "
-                  f"s={state['s']:.1f}, soc={state['soc']:.3f}")
-
-        # simulate forward
+        # 1) simulate forward one step
         state = simulate_vehicle_step(state, control, track, cfg, dt)
 
-        # log
+        # 2) update cumulative energy
+        cumulative_energy_J += state["energy_J"]
+
+        # 3) log everything
         log["time"].append(t)
         log["x"].append(state["x"])
         log["y"].append(state["y"])
@@ -414,6 +437,20 @@ def run_mpc_simulation(track, cfg, dt=0.1, debug_step=60):
         log["soc"].append(state["soc"])
         log["throttle"].append(control["throttle"])
         log["steer"].append(control["steer"])
+        log["slope"].append(state["slope"])
+        log["energy_J"].append(state["energy_J"])
+        log["energy_J_total"].append(cumulative_energy_J)
+
+        # 4) debug every debug_step (AFTER update so energy/slope are valid)
+        if int(t/dt) % debug_step == 0:
+            print(
+                f"[t={t:.1f}s] "
+                f"v={state['v']:.2f}m/s, "
+                f"slope={state['slope']:.3f}, "
+                f"E_step={state['energy_J']:.1f}J, "
+                f"E_tot={cumulative_energy_J:.1f}J, "
+                f"s={state['s']:.1f}, ey={state['ey']:.2f}, soc={state['soc']:.3f}"
+            )
 
         t += dt
 
@@ -421,5 +458,7 @@ def run_mpc_simulation(track, cfg, dt=0.1, debug_step=60):
     print(f"  Time:              {t:.1f} sec (may exceed 30 min)")
     print(f"  SOC remaining:     {state['soc']*100:.1f}%")
     print(f"  Laps completed:    {state['s']/track.length_m:.2f}")
+    print(f"  Total energy used: {cumulative_energy_J:.1f} J")
 
     return log, state
+

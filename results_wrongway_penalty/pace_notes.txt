@@ -1,0 +1,4419 @@
+=== Driving Instructions (Pace Notes) ===
+Generated from MPC Simulation
+
+Distance 0–20 m:
+  • Sharp turn, Flat
+  • Recommended speed: 0.7 km/h
+  • Throttle: 74.4%
+  • Steer: -7.9°
+
+Distance 20–40 m:
+  • Mild turn, Flat
+  • Recommended speed: 21.2 km/h
+  • Throttle: 53.2%
+  • Steer: -8.4°
+
+Distance 40–60 m:
+  • Straight, Flat
+  • Recommended speed: 26.4 km/h
+  • Throttle: 65.9%
+  • Steer: -0.6°
+
+Distance 60–80 m:
+  • Straight, Flat
+  • Recommended speed: 29.5 km/h
+  • Throttle: 59.8%
+  • Steer: -7.7°
+
+Distance 80–100 m:
+  • Straight, Downhill
+  • Recommended speed: 32.8 km/h
+  • Throttle: 31.3%
+  • Steer: -9.2°
+
+Distance 100–120 m:
+  • Straight, Flat
+  • Recommended speed: 35.5 km/h
+  • Throttle: 34.9%
+  • Steer: 1.7°
+
+Distance 120–140 m:
+  • Sharp turn, Flat
+  • Recommended speed: 35.7 km/h
+  • Throttle: 78.9%
+  • Steer: -9.8°
+
+Distance 140–160 m:
+  • Straight, Flat
+  • Recommended speed: 34.5 km/h
+  • Throttle: 75.5%
+  • Steer: 4.8°
+
+Distance 160–180 m:
+  • Straight, Flat
+  • Recommended speed: 32.9 km/h
+  • Throttle: 31.1%
+  • Steer: 15.4°
+
+Distance 180–200 m:
+  • Straight, Flat
+  • Recommended speed: 32.3 km/h
+  • Throttle: 78.9%
+  • Steer: 2.8°
+
+Distance 200–220 m:
+  • Straight, Downhill
+  • Recommended speed: 33.3 km/h
+  • Throttle: 43.2%
+  • Steer: 9.1°
+
+Distance 220–240 m:
+  • Straight, Downhill
+  • Recommended speed: 35.8 km/h
+  • Throttle: 70.9%
+  • Steer: 2.6°
+
+Distance 240–260 m:
+  • Straight, Downhill
+  • Recommended speed: 37.8 km/h
+  • Throttle: 34.3%
+  • Steer: -4.4°
+
+Distance 260–280 m:
+  • Straight, Downhill
+  • Recommended speed: 39.9 km/h
+  • Throttle: 21.6%
+  • Steer: -6.3°
+
+Distance 280–300 m:
+  • Straight, Flat
+  • Recommended speed: 40.5 km/h
+  • Throttle: 50.0%
+  • Steer: 6.0°
+
+Distance 300–320 m:
+  • Straight, Uphill
+  • Recommended speed: 38.8 km/h
+  • Throttle: 9.1%
+  • Steer: 24.6°
+
+Distance 320–340 m:
+  • Straight, Uphill
+  • Recommended speed: 34.7 km/h
+  • Throttle: 16.9%
+  • Steer: -9.5°
+
+Distance 340–360 m:
+  • Straight, Uphill
+  • Recommended speed: 29.9 km/h
+  • Throttle: 39.8%
+  • Steer: -1.9°
+
+Distance 360–380 m:
+  • Straight, Uphill
+  • Recommended speed: 28.1 km/h
+  • Throttle: 68.4%
+  • Steer: 20.3°
+
+Distance 380–400 m:
+  • Straight, Flat
+  • Recommended speed: 29.0 km/h
+  • Throttle: 50.2%
+  • Steer: -17.7°
+
+Distance 400–420 m:
+  • Straight, Flat
+  • Recommended speed: 29.7 km/h
+  • Throttle: 27.2%
+  • Steer: -7.0°
+
+Distance 420–440 m:
+  • Straight, Downhill
+  • Recommended speed: 31.3 km/h
+  • Throttle: 56.8%
+  • Steer: 4.3°
+
+Distance 440–460 m:
+  • Straight, Flat
+  • Recommended speed: 33.8 km/h
+  • Throttle: 22.5%
+  • Steer: 13.2°
+
+Distance 460–480 m:
+  • Mild turn, Flat
+  • Recommended speed: 33.3 km/h
+  • Throttle: 59.6%
+  • Steer: -2.4°
+
+Distance 480–500 m:
+  • Straight, Flat
+  • Recommended speed: 33.6 km/h
+  • Throttle: 26.5%
+  • Steer: 6.1°
+
+Distance 500–520 m:
+  • Mild turn, Uphill
+  • Recommended speed: 31.5 km/h
+  • Throttle: 48.3%
+  • Steer: -18.9°
+
+Distance 520–540 m:
+  • Straight, Flat
+  • Recommended speed: 29.9 km/h
+  • Throttle: 5.8%
+  • Steer: -6.7°
+
+Distance 540–560 m:
+  • Sharp turn, Downhill
+  • Recommended speed: 31.8 km/h
+  • Throttle: 45.4%
+  • Steer: 12.8°
+
+Distance 560–580 m:
+  • Sharp turn, Downhill
+  • Recommended speed: 33.8 km/h
+  • Throttle: 36.0%
+  • Steer: -6.2°
+
+Distance 580–600 m:
+  • Sharp turn, Flat
+  • Recommended speed: 34.6 km/h
+  • Throttle: 7.8%
+  • Steer: -3.4°
+
+Distance 600–620 m:
+  • Sharp turn, Uphill
+  • Recommended speed: 29.5 km/h
+  • Throttle: 47.5%
+  • Steer: 9.3°
+
+Distance 620–640 m:
+  • Sharp turn, Uphill
+  • Recommended speed: 22.0 km/h
+  • Throttle: 56.2%
+  • Steer: 7.6°
+
+Distance 640–660 m:
+  • Sharp turn, Uphill
+  • Recommended speed: 25.9 km/h
+  • Throttle: 79.9%
+  • Steer: -7.7°
+
+Distance 660–680 m:
+  • Sharp turn, Downhill
+  • Recommended speed: 28.8 km/h
+  • Throttle: 60.3%
+  • Steer: -3.7°
+
+Distance 680–700 m:
+  • Sharp turn, Downhill
+  • Recommended speed: 33.2 km/h
+  • Throttle: 7.2%
+  • Steer: -9.6°
+
+Distance 700–720 m:
+  • Mild turn, Downhill
+  • Recommended speed: 36.4 km/h
+  • Throttle: 37.8%
+  • Steer: 15.2°
+
+Distance 720–740 m:
+  • Straight, Flat
+  • Recommended speed: 38.0 km/h
+  • Throttle: 63.9%
+  • Steer: 1.2°
+
+Distance 740–760 m:
+  • Straight, Flat
+  • Recommended speed: 38.2 km/h
+  • Throttle: 62.2%
+  • Steer: -17.2°
+
+Distance 760–780 m:
+  • Mild turn, Uphill
+  • Recommended speed: 37.1 km/h
+  • Throttle: 17.8%
+  • Steer: -10.5°
+
+Distance 780–800 m:
+  • Straight, Uphill
+  • Recommended speed: 35.1 km/h
+  • Throttle: 49.6%
+  • Steer: 5.5°
+
+Distance 800–820 m:
+  • Straight, Uphill
+  • Recommended speed: 31.7 km/h
+  • Throttle: 65.4%
+  • Steer: 4.8°
+
+Distance 820–840 m:
+  • Straight, Flat
+  • Recommended speed: 31.0 km/h
+  • Throttle: 51.7%
+  • Steer: 2.6°
+
+Distance 840–860 m:
+  • Straight, Uphill
+  • Recommended speed: 30.6 km/h
+  • Throttle: 5.3%
+  • Steer: 18.3°
+
+Distance 860–880 m:
+  • Straight, Downhill
+  • Recommended speed: 31.0 km/h
+  • Throttle: 76.4%
+  • Steer: 9.1°
+
+Distance 880–900 m:
+  • Straight, Downhill
+  • Recommended speed: 33.3 km/h
+  • Throttle: 16.4%
+  • Steer: -22.2°
+
+Distance 900–920 m:
+  • Straight, Flat
+  • Recommended speed: 32.7 km/h
+  • Throttle: 10.4%
+  • Steer: -10.2°
+
+Distance 920–940 m:
+  • Straight, Uphill
+  • Recommended speed: 31.7 km/h
+  • Throttle: 77.7%
+  • Steer: -6.9°
+
+Distance 940–960 m:
+  • Straight, Downhill
+  • Recommended speed: 31.1 km/h
+  • Throttle: 50.8%
+  • Steer: -12.9°
+
+Distance 960–980 m:
+  • Straight, Flat
+  • Recommended speed: 32.4 km/h
+  • Throttle: 56.0%
+  • Steer: 9.6°
+
+Distance 980–1000 m:
+  • Straight, Downhill
+  • Recommended speed: 33.3 km/h
+  • Throttle: 27.8%
+  • Steer: 19.9°
+
+Distance 1000–1020 m:
+  • Straight, Downhill
+  • Recommended speed: 34.1 km/h
+  • Throttle: 26.6%
+  • Steer: 8.8°
+
+Distance 1020–1040 m:
+  • Sharp turn, Flat
+  • Recommended speed: 34.9 km/h
+  • Throttle: 7.3%
+  • Steer: -18.8°
+
+Distance 1040–1060 m:
+  • Mild turn, Uphill
+  • Recommended speed: 33.0 km/h
+  • Throttle: 19.3%
+  • Steer: -2.1°
+
+Distance 1060–1080 m:
+  • Straight, Flat
+  • Recommended speed: 31.2 km/h
+  • Throttle: 13.4%
+  • Steer: 7.6°
+
+Distance 1080–1100 m:
+  • Mild turn, Flat
+  • Recommended speed: 30.5 km/h
+  • Throttle: 17.0%
+  • Steer: -15.2°
+
+Distance 1100–1120 m:
+  • Sharp turn, Flat
+  • Recommended speed: 30.0 km/h
+  • Throttle: 72.1%
+  • Steer: -21.6°
+
+Distance 1120–1140 m:
+  • Sharp turn, Uphill
+  • Recommended speed: 30.3 km/h
+  • Throttle: 76.6%
+  • Steer: 14.1°
+
+Distance 1140–1160 m:
+  • Mild turn, Flat
+  • Recommended speed: 29.0 km/h
+  • Throttle: 77.5%
+  • Steer: 22.5°
+
+Distance 1160–1180 m:
+  • Mild turn, Flat
+  • Recommended speed: 29.7 km/h
+  • Throttle: 60.8%
+  • Steer: -17.2°
+
+Distance 1180–1200 m:
+  • Mild turn, Uphill
+  • Recommended speed: 29.3 km/h
+  • Throttle: 61.7%
+  • Steer: 22.1°
+
+Distance 1200–1220 m:
+  • Mild turn, Flat
+  • Recommended speed: 29.0 km/h
+  • Throttle: 78.9%
+  • Steer: 1.1°
+
+Distance 1220–1240 m:
+  • Mild turn, Flat
+  • Recommended speed: 30.3 km/h
+  • Throttle: 44.6%
+  • Steer: 2.2°
+
+Distance 1240–1260 m:
+  • Straight, Flat
+  • Recommended speed: 29.8 km/h
+  • Throttle: 63.8%
+  • Steer: 5.6°
+
+Distance 1260–1280 m:
+  • Straight, Flat
+  • Recommended speed: 30.2 km/h
+  • Throttle: 6.2%
+  • Steer: 2.1°
+
+Distance 1280–1300 m:
+  • Mild turn, Flat
+  • Recommended speed: 30.8 km/h
+  • Throttle: 70.3%
+  • Steer: 15.1°
+
+Distance 1300–1320 m:
+  • Mild turn, Flat
+  • Recommended speed: 31.0 km/h
+  • Throttle: 25.5%
+  • Steer: 3.9°
+
+Distance 1320–1340 m:
+  • Straight, Flat
+  • Recommended speed: 30.2 km/h
+  • Throttle: 72.5%
+  • Steer: -6.5°
+
+Distance 1340–1360 m:
+  • Straight, Uphill
+  • Recommended speed: 30.0 km/h
+  • Throttle: 54.9%
+  • Steer: 6.8°
+
+Distance 1360–1380 m:
+  • Straight, Flat
+  • Recommended speed: 29.8 km/h
+  • Throttle: 72.6%
+  • Steer: -14.0°
+
+Distance 1380–1400 m:
+  • Straight, Uphill
+  • Recommended speed: 30.0 km/h
+  • Throttle: 64.9%
+  • Steer: -11.0°
+
+Distance 1400–1420 m:
+  • Mild turn, Flat
+  • Recommended speed: 30.6 km/h
+  • Throttle: 43.0%
+  • Steer: 14.7°
+
+Distance 1420–1440 m:
+  • Straight, Downhill
+  • Recommended speed: 32.9 km/h
+  • Throttle: 63.5%
+  • Steer: 6.1°
+
+Distance 1440–1460 m:
+  • Straight, Flat
+  • Recommended speed: 32.9 km/h
+  • Throttle: 35.8%
+  • Steer: 4.8°
+
+Distance 1460–1480 m:
+  • Straight, Downhill
+  • Recommended speed: 34.1 km/h
+  • Throttle: 1.5%
+  • Steer: 2.8°
+
+Distance 1480–1500 m:
+  • Straight, Downhill
+  • Recommended speed: 36.3 km/h
+  • Throttle: 13.4%
+  • Steer: -14.8°
+
+Distance 1500–1520 m:
+  • Straight, Downhill
+  • Recommended speed: 38.3 km/h
+  • Throttle: 64.5%
+  • Steer: 0.5°
+
+Distance 1520–1540 m:
+  • Straight, Flat
+  • Recommended speed: 38.5 km/h
+  • Throttle: 43.9%
+  • Steer: -2.7°
+
+Distance 1540–1560 m:
+  • Straight, Flat
+  • Recommended speed: 38.0 km/h
+  • Throttle: 12.6%
+  • Steer: 4.0°
+
+Distance 1560–1580 m:
+  • Mild turn, Flat
+  • Recommended speed: 37.5 km/h
+  • Throttle: 18.7%
+  • Steer: 23.6°
+
+Distance 1580–1600 m:
+  • Straight, Uphill
+  • Recommended speed: 35.8 km/h
+  • Throttle: 2.0%
+  • Steer: 14.4°
+
+Distance 1600–1620 m:
+  • Straight, Flat
+  • Recommended speed: 34.3 km/h
+  • Throttle: 16.0%
+  • Steer: 11.6°
+
+Distance 1620–1640 m:
+  • Mild turn, Uphill
+  • Recommended speed: 33.8 km/h
+  • Throttle: 40.8%
+  • Steer: -17.7°
+
+Distance 1640–1660 m:
+  • Mild turn, Uphill
+  • Recommended speed: 31.0 km/h
+  • Throttle: 19.2%
+  • Steer: -5.3°
+
+Distance 1660–1680 m:
+  • Straight, Flat
+  • Recommended speed: 30.6 km/h
+  • Throttle: 15.7%
+  • Steer: -11.8°
+
+Distance 1680–1700 m:
+  • Straight, Flat
+  • Recommended speed: 30.9 km/h
+  • Throttle: 47.4%
+  • Steer: 12.9°
+
+Distance 1700–1720 m:
+  • Straight, Flat
+  • Recommended speed: 29.9 km/h
+  • Throttle: 26.6%
+  • Steer: -1.1°
+
+Distance 1720–1740 m:
+  • Straight, Flat
+  • Recommended speed: 30.2 km/h
+  • Throttle: 54.5%
+  • Steer: 19.0°
+
+Distance 1740–1760 m:
+  • Straight, Downhill
+  • Recommended speed: 32.3 km/h
+  • Throttle: 46.3%
+  • Steer: -13.4°
+
+Distance 1760–1780 m:
+  • Straight, Downhill
+  • Recommended speed: 36.7 km/h
+  • Throttle: 29.4%
+  • Steer: -10.9°
+
+Distance 1780–1800 m:
+  • Straight, Flat
+  • Recommended speed: 39.0 km/h
+  • Throttle: 69.4%
+  • Steer: -15.2°
+
+Distance 1800–1820 m:
+  • Straight, Downhill
+  • Recommended speed: 40.6 km/h
+  • Throttle: 61.4%
+  • Steer: 14.1°
+
+Distance 1820–1840 m:
+  • Straight, Uphill
+  • Recommended speed: 40.9 km/h
+  • Throttle: 33.7%
+  • Steer: 14.0°
+
+Distance 1840–1860 m:
+  • Sharp turn, Flat
+  • Recommended speed: 39.4 km/h
+  • Throttle: 41.5%
+  • Steer: 20.2°
+
+Distance 1860–1880 m:
+  • Mild turn, Flat
+  • Recommended speed: 37.6 km/h
+  • Throttle: 7.3%
+  • Steer: 3.7°
+
+Distance 1880–1900 m:
+  • Sharp turn, Downhill
+  • Recommended speed: 36.6 km/h
+  • Throttle: 42.9%
+  • Steer: 5.3°
+
+Distance 1900–1920 m:
+  • Sharp turn, Flat
+  • Recommended speed: 36.2 km/h
+  • Throttle: 54.6%
+  • Steer: -2.1°
+
+Distance 1920–1940 m:
+  • Mild turn, Flat
+  • Recommended speed: 34.6 km/h
+  • Throttle: 50.2%
+  • Steer: -0.1°
+
+Distance 1940–1960 m:
+  • Mild turn, Flat
+  • Recommended speed: 32.0 km/h
+  • Throttle: 28.7%
+  • Steer: -6.6°
+
+Distance 1960–1980 m:
+  • Straight, Flat
+  • Recommended speed: 30.8 km/h
+  • Throttle: 12.4%
+  • Steer: -22.3°
+
+Distance 1980–2000 m:
+  • Straight, Flat
+  • Recommended speed: 30.4 km/h
+  • Throttle: 44.5%
+  • Steer: -2.5°
+
+Distance 2000–2020 m:
+  • Straight, Downhill
+  • Recommended speed: 31.6 km/h
+  • Throttle: 4.1%
+  • Steer: 3.9°
+
+Distance 2020–2040 m:
+  • Straight, Flat
+  • Recommended speed: 33.4 km/h
+  • Throttle: 25.5%
+  • Steer: 9.0°
+
+Distance 2040–2060 m:
+  • Mild turn, Downhill
+  • Recommended speed: 34.2 km/h
+  • Throttle: 32.4%
+  • Steer: -18.2°
+
+Distance 2060–2080 m:
+  • Sharp turn, Downhill
+  • Recommended speed: 36.3 km/h
+  • Throttle: 23.5%
+  • Steer: 8.0°
+
+Distance 2080–2100 m:
+  • Sharp turn, Downhill
+  • Recommended speed: 38.7 km/h
+  • Throttle: 0.4%
+  • Steer: 3.4°
+
+Distance 2100–2120 m:
+  • Sharp turn, Downhill
+  • Recommended speed: 40.7 km/h
+  • Throttle: 40.7%
+  • Steer: -21.3°
+
+Distance 2120–2140 m:
+  • Mild turn, Flat
+  • Recommended speed: 40.8 km/h
+  • Throttle: 71.4%
+  • Steer: 8.8°
+
+Distance 2140–2160 m:
+  • Straight, Uphill
+  • Recommended speed: 39.1 km/h
+  • Throttle: 67.2%
+  • Steer: 13.1°
+
+Distance 2160–2180 m:
+  • Straight, Uphill
+  • Recommended speed: 32.7 km/h
+  • Throttle: 76.9%
+  • Steer: 12.3°
+
+Distance 2180–2200 m:
+  • Straight, Uphill
+  • Recommended speed: 26.5 km/h
+  • Throttle: 64.5%
+  • Steer: 13.9°
+
+Distance 2200–2220 m:
+  • Straight, Uphill
+  • Recommended speed: 24.1 km/h
+  • Throttle: 46.1%
+  • Steer: 11.1°
+
+Distance 2220–2240 m:
+  • Straight, Uphill
+  • Recommended speed: 24.6 km/h
+  • Throttle: 76.8%
+  • Steer: -11.4°
+
+Distance 2240–2260 m:
+  • Straight, Uphill
+  • Recommended speed: 23.5 km/h
+  • Throttle: 68.7%
+  • Steer: 5.6°
+
+Distance 2260–2280 m:
+  • Sharp turn, Flat
+  • Recommended speed: 25.1 km/h
+  • Throttle: 54.1%
+  • Steer: 4.1°
+
+Distance 2280–2300 m:
+  • Sharp turn, Flat
+  • Recommended speed: 29.9 km/h
+  • Throttle: 40.7%
+  • Steer: 21.5°
+
+Distance 2300–2320 m:
+  • Sharp turn, Downhill
+  • Recommended speed: 32.4 km/h
+  • Throttle: 17.6%
+  • Steer: 14.9°
+
+Distance 2320–2340 m:
+  • Sharp turn, Downhill
+  • Recommended speed: 37.8 km/h
+  • Throttle: 62.8%
+  • Steer: -2.7°
+
+Distance 2340–2360 m:
+  • Straight, Flat
+  • Recommended speed: 39.5 km/h
+  • Throttle: 22.0%
+  • Steer: 20.3°
+
+Distance 2360–2380 m:
+  • Straight, Uphill
+  • Recommended speed: 38.3 km/h
+  • Throttle: 68.8%
+  • Steer: -11.1°
+
+Distance 2380–2400 m:
+  • Straight, Uphill
+  • Recommended speed: 35.8 km/h
+  • Throttle: 74.0%
+  • Steer: -6.0°
+
+Distance 2400–2420 m:
+  • Straight, Uphill
+  • Recommended speed: 33.3 km/h
+  • Throttle: 53.7%
+  • Steer: 13.3°
+
+Distance 2420–2440 m:
+  • Straight, Flat
+  • Recommended speed: 33.4 km/h
+  • Throttle: 79.7%
+  • Steer: 5.6°
+
+Distance 2440–2460 m:
+  • Straight, Downhill
+  • Recommended speed: 33.7 km/h
+  • Throttle: 72.6%
+  • Steer: -14.7°
+
+Distance 2460–2480 m:
+  • Straight, Downhill
+  • Recommended speed: 34.1 km/h
+  • Throttle: 19.3%
+  • Steer: 13.5°
+
+Distance 2480–2500 m:
+  • Straight, Downhill
+  • Recommended speed: 36.4 km/h
+  • Throttle: 33.1%
+  • Steer: 20.0°
+
+Distance 2500–2520 m:
+  • Straight, Downhill
+  • Recommended speed: 37.9 km/h
+  • Throttle: 24.6%
+  • Steer: -0.6°
+
+Distance 2520–2540 m:
+  • Straight, Uphill
+  • Recommended speed: 37.9 km/h
+  • Throttle: 10.6%
+  • Steer: 13.8°
+
+Distance 2540–2560 m:
+  • Straight, Uphill
+  • Recommended speed: 35.6 km/h
+  • Throttle: 58.0%
+  • Steer: -21.8°
+
+Distance 2560–2580 m:
+  • Mild turn, Downhill
+  • Recommended speed: 35.5 km/h
+  • Throttle: 6.8%
+  • Steer: 19.3°
+
+Distance 2580–2600 m:
+  • Sharp turn, Downhill
+  • Recommended speed: 37.9 km/h
+  • Throttle: 40.5%
+  • Steer: -22.0°
+
+Distance 2600–2620 m:
+  • Sharp turn, Downhill
+  • Recommended speed: 41.3 km/h
+  • Throttle: 20.4%
+  • Steer: 24.1°
+
+Distance 2620–2640 m:
+  • Sharp turn, Flat
+  • Recommended speed: 41.8 km/h
+  • Throttle: 19.1%
+  • Steer: 18.1°
+
+Distance 2640–2660 m:
+  • Sharp turn, Uphill
+  • Recommended speed: 40.7 km/h
+  • Throttle: 59.5%
+  • Steer: 22.4°
+
+Distance 2660–2680 m:
+  • Straight, Uphill
+  • Recommended speed: 38.3 km/h
+  • Throttle: 17.6%
+  • Steer: 7.6°
+
+Distance 2680–2700 m:
+  • Straight, Uphill
+  • Recommended speed: 34.6 km/h
+  • Throttle: 78.6%
+  • Steer: -13.9°
+
+Distance 2700–2720 m:
+  • Straight, Uphill
+  • Recommended speed: 30.6 km/h
+  • Throttle: 58.1%
+  • Steer: 5.9°
+
+Distance 2720–2740 m:
+  • Straight, Downhill
+  • Recommended speed: 31.3 km/h
+  • Throttle: 26.6%
+  • Steer: -12.0°
+
+Distance 2740–2760 m:
+  • Straight, Flat
+  • Recommended speed: 32.3 km/h
+  • Throttle: 31.4%
+  • Steer: -16.4°
+
+Distance 2760–2780 m:
+  • Straight, Downhill
+  • Recommended speed: 31.7 km/h
+  • Throttle: 36.3%
+  • Steer: -6.6°
+
+Distance 2780–2800 m:
+  • Straight, Flat
+  • Recommended speed: 31.9 km/h
+  • Throttle: 58.5%
+  • Steer: 1.3°
+
+Distance 2800–2820 m:
+  • Straight, Flat
+  • Recommended speed: 32.2 km/h
+  • Throttle: 15.3%
+  • Steer: 4.5°
+
+Distance 2820–2840 m:
+  • Straight, Flat
+  • Recommended speed: 32.3 km/h
+  • Throttle: 39.9%
+  • Steer: 14.0°
+
+Distance 2840–2860 m:
+  • Straight, Flat
+  • Recommended speed: 32.2 km/h
+  • Throttle: 51.7%
+  • Steer: -6.2°
+
+Distance 2860–2880 m:
+  • Straight, Uphill
+  • Recommended speed: 30.8 km/h
+  • Throttle: 10.1%
+  • Steer: 24.6°
+
+Distance 2880–2900 m:
+  • Straight, Uphill
+  • Recommended speed: 28.0 km/h
+  • Throttle: 71.0%
+  • Steer: -8.0°
+
+Distance 2900–2920 m:
+  • Straight, Flat
+  • Recommended speed: 28.8 km/h
+  • Throttle: 76.0%
+  • Steer: 10.3°
+
+Distance 2920–2940 m:
+  • Straight, Flat
+  • Recommended speed: 29.9 km/h
+  • Throttle: 52.7%
+  • Steer: -7.8°
+
+Distance 2940–2960 m:
+  • Straight, Downhill
+  • Recommended speed: 31.9 km/h
+  • Throttle: 30.9%
+  • Steer: -5.1°
+
+Distance 2960–2980 m:
+  • Straight, Downhill
+  • Recommended speed: 34.3 km/h
+  • Throttle: 79.5%
+  • Steer: 1.8°
+
+Distance 2980–3000 m:
+  • Straight, Downhill
+  • Recommended speed: 37.9 km/h
+  • Throttle: 16.9%
+  • Steer: 8.1°
+
+Distance 3000–3020 m:
+  • Mild turn, Downhill
+  • Recommended speed: 44.3 km/h
+  • Throttle: 63.8%
+  • Steer: 5.1°
+
+Distance 3020–3040 m:
+  • Mild turn, Downhill
+  • Recommended speed: 53.3 km/h
+  • Throttle: 34.8%
+  • Steer: 5.4°
+
+Distance 3040–3060 m:
+  • Sharp turn, Uphill
+  • Recommended speed: 53.8 km/h
+  • Throttle: 21.4%
+  • Steer: -20.9°
+
+Distance 3060–3080 m:
+  • Sharp turn, Uphill
+  • Recommended speed: 51.6 km/h
+  • Throttle: 74.3%
+  • Steer: 5.3°
+
+Distance 3080–3100 m:
+  • Sharp turn, Uphill
+  • Recommended speed: 44.7 km/h
+  • Throttle: 16.3%
+  • Steer: -23.4°
+
+Distance 3100–3120 m:
+  • Sharp turn, Flat
+  • Recommended speed: 37.5 km/h
+  • Throttle: 18.2%
+  • Steer: 5.2°
+
+Distance 3120–3140 m:
+  • Sharp turn, Uphill
+  • Recommended speed: 35.7 km/h
+  • Throttle: 17.3%
+  • Steer: -22.8°
+
+Distance 3140–3160 m:
+  • Sharp turn, Downhill
+  • Recommended speed: 33.3 km/h
+  • Throttle: 28.5%
+  • Steer: -6.2°
+
+Distance 3160–3180 m:
+  • Straight, Flat
+  • Recommended speed: 33.2 km/h
+  • Throttle: 9.0%
+  • Steer: 11.1°
+
+Distance 3180–3200 m:
+  • Straight, Flat
+  • Recommended speed: 32.0 km/h
+  • Throttle: 12.5%
+  • Steer: -9.8°
+
+Distance 3200–3220 m:
+  • Straight, Downhill
+  • Recommended speed: 33.2 km/h
+  • Throttle: 33.0%
+  • Steer: -9.7°
+
+Distance 3220–3240 m:
+  • Straight, Downhill
+  • Recommended speed: 35.5 km/h
+  • Throttle: 23.0%
+  • Steer: -3.4°
+
+Distance 3240–3260 m:
+  • Straight, Downhill
+  • Recommended speed: 37.4 km/h
+  • Throttle: 56.0%
+  • Steer: 11.0°
+
+Distance 3260–3280 m:
+  • Straight, Flat
+  • Recommended speed: 37.3 km/h
+  • Throttle: 31.4%
+  • Steer: -1.8°
+
+Distance 3280–3300 m:
+  • Straight, Flat
+  • Recommended speed: 37.1 km/h
+  • Throttle: 4.2%
+  • Steer: 2.0°
+
+Distance 3300–3320 m:
+  • Straight, Uphill
+  • Recommended speed: 36.7 km/h
+  • Throttle: 14.2%
+  • Steer: -14.9°
+
+Distance 3320–3340 m:
+  • Straight, Uphill
+  • Recommended speed: 33.4 km/h
+  • Throttle: 4.8%
+  • Steer: -9.1°
+
+Distance 3340–3360 m:
+  • Straight, Uphill
+  • Recommended speed: 29.5 km/h
+  • Throttle: 76.8%
+  • Steer: -23.5°
+
+Distance 3360–3380 m:
+  • Straight, Uphill
+  • Recommended speed: 28.8 km/h
+  • Throttle: 69.7%
+  • Steer: 23.8°
+
+Distance 3380–3400 m:
+  • Straight, Uphill
+  • Recommended speed: 28.0 km/h
+  • Throttle: 52.7%
+  • Steer: -6.2°
+
+Distance 3400–3420 m:
+  • Straight, Downhill
+  • Recommended speed: 32.5 km/h
+  • Throttle: 21.4%
+  • Steer: 18.6°
+
+Distance 3420–3440 m:
+  • Straight, Flat
+  • Recommended speed: 33.8 km/h
+  • Throttle: 43.7%
+  • Steer: 7.7°
+
+Distance 3440–3460 m:
+  • Straight, Flat
+  • Recommended speed: 34.0 km/h
+  • Throttle: 37.8%
+  • Steer: -24.7°
+
+Distance 3460–3480 m:
+  • Straight, Flat
+  • Recommended speed: 33.9 km/h
+  • Throttle: 69.0%
+  • Steer: -13.8°
+
+Distance 3480–3500 m:
+  • Straight, Uphill
+  • Recommended speed: 32.3 km/h
+  • Throttle: 67.7%
+  • Steer: 5.6°
+
+Distance 3500–3520 m:
+  • Straight, Downhill
+  • Recommended speed: 32.8 km/h
+  • Throttle: 52.7%
+  • Steer: -6.1°
+
+Distance 3520–3540 m:
+  • Straight, Downhill
+  • Recommended speed: 35.2 km/h
+  • Throttle: 11.6%
+  • Steer: 14.1°
+
+Distance 3540–3560 m:
+  • Straight, Downhill
+  • Recommended speed: 37.8 km/h
+  • Throttle: 27.2%
+  • Steer: -12.5°
+
+Distance 3560–3580 m:
+  • Straight, Downhill
+  • Recommended speed: 40.9 km/h
+  • Throttle: 48.2%
+  • Steer: 18.7°
+
+Distance 3580–3600 m:
+  • Straight, Flat
+  • Recommended speed: 41.1 km/h
+  • Throttle: 57.5%
+  • Steer: -19.2°
+
+Distance 3600–3620 m:
+  • Mild turn, Flat
+  • Recommended speed: 39.8 km/h
+  • Throttle: 41.9%
+  • Steer: -12.3°
+
+Distance 3620–3640 m:
+  • Straight, Uphill
+  • Recommended speed: 38.3 km/h
+  • Throttle: 23.0%
+  • Steer: 13.0°
+
+Distance 3640–3660 m:
+  • Mild turn, Uphill
+  • Recommended speed: 36.3 km/h
+  • Throttle: 60.1%
+  • Steer: 20.5°
+
+Distance 3660–3680 m:
+  • Mild turn, Uphill
+  • Recommended speed: 34.4 km/h
+  • Throttle: 9.7%
+  • Steer: -24.7°
+
+Distance 3680–3700 m:
+  • Sharp turn, Flat
+  • Recommended speed: 32.2 km/h
+  • Throttle: 8.9%
+  • Steer: 6.2°
+
+Distance 3700–3720 m:
+  • Straight, Flat
+  • Recommended speed: 31.5 km/h
+  • Throttle: 46.3%
+  • Steer: 8.1°
+
+Distance 3720–3740 m:
+  • Straight, Flat
+  • Recommended speed: 32.0 km/h
+  • Throttle: 65.8%
+  • Steer: 13.4°
+
+Distance 3740–3760 m:
+  • Straight, Downhill
+  • Recommended speed: 33.5 km/h
+  • Throttle: 67.3%
+  • Steer: 23.7°
+
+Distance 3760–3780 m:
+  • Straight, Downhill
+  • Recommended speed: 35.8 km/h
+  • Throttle: 67.5%
+  • Steer: -15.8°
+
+Distance 3780–3800 m:
+  • Straight, Flat
+  • Recommended speed: 38.1 km/h
+  • Throttle: 38.9%
+  • Steer: 17.7°
+
+Distance 3800–3820 m:
+  • Mild turn, Flat
+  • Recommended speed: 37.9 km/h
+  • Throttle: 31.1%
+  • Steer: 7.1°
+
+Distance 3820–3840 m:
+  • Straight, Uphill
+  • Recommended speed: 36.6 km/h
+  • Throttle: 70.3%
+  • Steer: 23.1°
+
+Distance 3840–3860 m:
+  • Straight, Flat
+  • Recommended speed: 34.7 km/h
+  • Throttle: 9.2%
+  • Steer: -22.0°
+
+Distance 3860–3880 m:
+  • Straight, Flat
+  • Recommended speed: 34.2 km/h
+  • Throttle: 68.3%
+  • Steer: -6.9°
+
+Distance 3880–3900 m:
+  • Straight, Downhill
+  • Recommended speed: 35.3 km/h
+  • Throttle: 31.0%
+  • Steer: 22.6°
+
+Distance 3900–3920 m:
+  • Straight, Downhill
+  • Recommended speed: 37.6 km/h
+  • Throttle: 19.1%
+  • Steer: 1.0°
+
+Distance 3920–3940 m:
+  • Straight, Downhill
+  • Recommended speed: 39.6 km/h
+  • Throttle: 79.6%
+  • Steer: 17.1°
+
+Distance 3940–3960 m:
+  • Straight, Downhill
+  • Recommended speed: 42.2 km/h
+  • Throttle: 9.0%
+  • Steer: 20.3°
+
+Distance 3960–3980 m:
+  • Straight, Uphill
+  • Recommended speed: 40.5 km/h
+  • Throttle: 7.2%
+  • Steer: 25.0°
+
+Distance 3980–4000 m:
+  • Straight, Uphill
+  • Recommended speed: 38.9 km/h
+  • Throttle: 48.6%
+  • Steer: -6.7°
+
+Distance 4000–4020 m:
+  • Straight, Uphill
+  • Recommended speed: 34.0 km/h
+  • Throttle: 46.1%
+  • Steer: -2.1°
+
+Distance 4020–4040 m:
+  • Straight, Uphill
+  • Recommended speed: 29.6 km/h
+  • Throttle: 41.7%
+  • Steer: -2.5°
+
+Distance 4040–4060 m:
+  • Straight, Uphill
+  • Recommended speed: 28.2 km/h
+  • Throttle: 60.5%
+  • Steer: 19.6°
+
+Distance 4060–4080 m:
+  • Straight, Uphill
+  • Recommended speed: 28.7 km/h
+  • Throttle: 69.2%
+  • Steer: 20.1°
+
+Distance 4080–4100 m:
+  • Straight, Flat
+  • Recommended speed: 29.5 km/h
+  • Throttle: 69.2%
+  • Steer: -6.6°
+
+Distance 4100–4120 m:
+  • Straight, Downhill
+  • Recommended speed: 31.9 km/h
+  • Throttle: 58.2%
+  • Steer: 13.7°
+
+Distance 4120–4140 m:
+  • Straight, Flat
+  • Recommended speed: 33.8 km/h
+  • Throttle: 2.8%
+  • Steer: -12.1°
+
+Distance 4140–4160 m:
+  • Straight, Flat
+  • Recommended speed: 33.3 km/h
+  • Throttle: 77.8%
+  • Steer: -10.2°
+
+Distance 4160–4180 m:
+  • Mild turn, Uphill
+  • Recommended speed: 34.0 km/h
+  • Throttle: 21.4%
+  • Steer: -0.3°
+
+Distance 4180–4200 m:
+  • Straight, Flat
+  • Recommended speed: 31.0 km/h
+  • Throttle: 23.5%
+  • Steer: 24.8°
+
+Distance 4200–4220 m:
+  • Mild turn, Flat
+  • Recommended speed: 30.4 km/h
+  • Throttle: 14.7%
+  • Steer: 9.1°
+
+Distance 4220–4240 m:
+  • Sharp turn, Downhill
+  • Recommended speed: 32.5 km/h
+  • Throttle: 50.2%
+  • Steer: -23.5°
+
+Distance 4240–4260 m:
+  • Sharp turn, Flat
+  • Recommended speed: 34.4 km/h
+  • Throttle: 24.8%
+  • Steer: 10.8°
+
+Distance 4260–4280 m:
+  • Sharp turn, Uphill
+  • Recommended speed: 34.2 km/h
+  • Throttle: 21.5%
+  • Steer: 8.2°
+
+Distance 4280–4300 m:
+  • Sharp turn, Uphill
+  • Recommended speed: 25.8 km/h
+  • Throttle: 71.5%
+  • Steer: -13.6°
+
+Distance 4300–4320 m:
+  • Sharp turn, Uphill
+  • Recommended speed: 22.4 km/h
+  • Throttle: 76.2%
+  • Steer: -7.0°
+
+Distance 4320–4340 m:
+  • Sharp turn, Flat
+  • Recommended speed: 27.1 km/h
+  • Throttle: 51.5%
+  • Steer: -14.3°
+
+Distance 4340–4360 m:
+  • Sharp turn, Downhill
+  • Recommended speed: 31.9 km/h
+  • Throttle: 22.2%
+  • Steer: 0.4°
+
+Distance 4360–4380 m:
+  • Sharp turn, Downhill
+  • Recommended speed: 35.2 km/h
+  • Throttle: 47.9%
+  • Steer: 0.6°
+
+Distance 4380–4400 m:
+  • Mild turn, Downhill
+  • Recommended speed: 38.1 km/h
+  • Throttle: 27.0%
+  • Steer: -15.7°
+
+Distance 4400–4420 m:
+  • Mild turn, Flat
+  • Recommended speed: 39.5 km/h
+  • Throttle: 58.0%
+  • Steer: 12.0°
+
+Distance 4420–4440 m:
+  • Mild turn, Downhill
+  • Recommended speed: 39.6 km/h
+  • Throttle: 71.9%
+  • Steer: -1.1°
+
+Distance 4440–4460 m:
+  • Mild turn, Uphill
+  • Recommended speed: 38.0 km/h
+  • Throttle: 12.6%
+  • Steer: -6.1°
+
+Distance 4460–4480 m:
+  • Straight, Flat
+  • Recommended speed: 35.9 km/h
+  • Throttle: 43.4%
+  • Steer: -5.2°
+
+Distance 4480–4500 m:
+  • Straight, Uphill
+  • Recommended speed: 32.3 km/h
+  • Throttle: 69.0%
+  • Steer: 1.2°
+
+Distance 4500–4520 m:
+  • Straight, Flat
+  • Recommended speed: 31.8 km/h
+  • Throttle: 13.2%
+  • Steer: 12.6°
+
+Distance 4520–4540 m:
+  • Straight, Flat
+  • Recommended speed: 30.9 km/h
+  • Throttle: 16.9%
+  • Steer: 5.2°
+
+Distance 4540–4560 m:
+  • Mild turn, Downhill
+  • Recommended speed: 32.2 km/h
+  • Throttle: 75.1%
+  • Steer: 5.4°
+
+Distance 4560–4580 m:
+  • Straight, Flat
+  • Recommended speed: 33.8 km/h
+  • Throttle: 58.7%
+  • Steer: 13.9°
+
+Distance 4580–4600 m:
+  • Straight, Flat
+  • Recommended speed: 33.0 km/h
+  • Throttle: 73.1%
+  • Steer: 9.6°
+
+Distance 4600–4620 m:
+  • Straight, Uphill
+  • Recommended speed: 31.5 km/h
+  • Throttle: 30.7%
+  • Steer: -21.5°
+
+Distance 4620–4640 m:
+  • Straight, Downhill
+  • Recommended speed: 31.6 km/h
+  • Throttle: 4.7%
+  • Steer: -5.8°
+
+Distance 4640–4660 m:
+  • Straight, Downhill
+  • Recommended speed: 32.8 km/h
+  • Throttle: 13.0%
+  • Steer: 19.6°
+
+Distance 4660–4680 m:
+  • Straight, Flat
+  • Recommended speed: 33.8 km/h
+  • Throttle: 54.4%
+  • Steer: 5.5°
+
+Distance 4680–4700 m:
+  • Straight, Flat
+  • Recommended speed: 34.4 km/h
+  • Throttle: 33.0%
+  • Steer: -19.3°
+
+Distance 4700–4720 m:
+  • Mild turn, Flat
+  • Recommended speed: 35.0 km/h
+  • Throttle: 75.9%
+  • Steer: -13.2°
+
+Distance 4720–4740 m:
+  • Sharp turn, Uphill
+  • Recommended speed: 32.7 km/h
+  • Throttle: 44.2%
+  • Steer: 11.9°
+
+Distance 4740–4760 m:
+  • Straight, Flat
+  • Recommended speed: 31.3 km/h
+  • Throttle: 51.7%
+  • Steer: 18.9°
+
+Distance 4760–4780 m:
+  • Sharp turn, Uphill
+  • Recommended speed: 30.4 km/h
+  • Throttle: 65.9%
+  • Steer: -3.2°
+
+Distance 4780–4800 m:
+  • Sharp turn, Flat
+  • Recommended speed: 30.4 km/h
+  • Throttle: 58.2%
+  • Steer: 24.3°
+
+Distance 4800–4820 m:
+  • Sharp turn, Uphill
+  • Recommended speed: 30.3 km/h
+  • Throttle: 54.1%
+  • Steer: 10.2°
+
+Distance 4820–4840 m:
+  • Mild turn, Flat
+  • Recommended speed: 29.0 km/h
+  • Throttle: 79.7%
+  • Steer: 6.1°
+
+Distance 4840–4860 m:
+  • Mild turn, Flat
+  • Recommended speed: 30.0 km/h
+  • Throttle: 65.8%
+  • Steer: -0.2°
+
+Distance 4860–4880 m:
+  • Mild turn, Uphill
+  • Recommended speed: 29.3 km/h
+  • Throttle: 61.1%
+  • Steer: -17.7°
+
+Distance 4880–4900 m:
+  • Mild turn, Flat
+  • Recommended speed: 29.4 km/h
+  • Throttle: 74.4%
+  • Steer: 5.5°
+
+Distance 4900–4920 m:
+  • Straight, Uphill
+  • Recommended speed: 30.4 km/h
+  • Throttle: 4.1%
+  • Steer: -10.7°
+
+Distance 4920–4940 m:
+  • Mild turn, Flat
+  • Recommended speed: 30.0 km/h
+  • Throttle: 59.4%
+  • Steer: 13.6°
+
+Distance 4940–4960 m:
+  • Straight, Flat
+  • Recommended speed: 30.1 km/h
+  • Throttle: 20.5%
+  • Steer: -16.5°
+
+Distance 4960–4980 m:
+  • Mild turn, Flat
+  • Recommended speed: 30.8 km/h
+  • Throttle: 9.3%
+  • Steer: 8.4°
+
+Distance 4980–5000 m:
+  • Straight, Uphill
+  • Recommended speed: 30.7 km/h
+  • Throttle: 0.6%
+  • Steer: 23.5°
+
+Distance 5000–5020 m:
+  • Straight, Uphill
+  • Recommended speed: 30.0 km/h
+  • Throttle: 51.5%
+  • Steer: -16.2°
+
+Distance 5020–5040 m:
+  • Straight, Flat
+  • Recommended speed: 29.8 km/h
+  • Throttle: 62.8%
+  • Steer: 23.2°
+
+Distance 5040–5060 m:
+  • Straight, Flat
+  • Recommended speed: 30.0 km/h
+  • Throttle: 78.2%
+  • Steer: -0.6°
+
+Distance 5060–5080 m:
+  • Mild turn, Flat
+  • Recommended speed: 29.8 km/h
+  • Throttle: 2.9%
+  • Steer: 13.5°
+
+Distance 5080–5100 m:
+  • Mild turn, Downhill
+  • Recommended speed: 31.1 km/h
+  • Throttle: 11.1%
+  • Steer: -10.2°
+
+Distance 5100–5120 m:
+  • Straight, Flat
+  • Recommended speed: 33.3 km/h
+  • Throttle: 41.7%
+  • Steer: -8.0°
+
+Distance 5120–5140 m:
+  • Straight, Downhill
+  • Recommended speed: 33.1 km/h
+  • Throttle: 78.8%
+  • Steer: 3.0°
+
+Distance 5140–5160 m:
+  • Straight, Downhill
+  • Recommended speed: 34.7 km/h
+  • Throttle: 48.1%
+  • Steer: -11.5°
+
+Distance 5160–5180 m:
+  • Straight, Downhill
+  • Recommended speed: 36.7 km/h
+  • Throttle: 20.9%
+  • Steer: 1.5°
+
+Distance 5180–5200 m:
+  • Straight, Downhill
+  • Recommended speed: 38.6 km/h
+  • Throttle: 79.4%
+  • Steer: 2.1°
+
+Distance 5200–5220 m:
+  • Straight, Flat
+  • Recommended speed: 38.4 km/h
+  • Throttle: 48.7%
+  • Steer: -13.4°
+
+Distance 5220–5240 m:
+  • Straight, Flat
+  • Recommended speed: 37.9 km/h
+  • Throttle: 48.7%
+  • Steer: 8.0°
+
+Distance 5240–5260 m:
+  • Straight, Uphill
+  • Recommended speed: 37.4 km/h
+  • Throttle: 49.1%
+  • Steer: -22.1°
+
+Distance 5260–5280 m:
+  • Straight, Uphill
+  • Recommended speed: 35.4 km/h
+  • Throttle: 28.6%
+  • Steer: -14.7°
+
+Distance 5280–5300 m:
+  • Straight, Flat
+  • Recommended speed: 34.1 km/h
+  • Throttle: 64.8%
+  • Steer: -8.4°
+
+Distance 5300–5320 m:
+  • Mild turn, Uphill
+  • Recommended speed: 33.2 km/h
+  • Throttle: 3.7%
+  • Steer: 19.2°
+
+Distance 5320–5340 m:
+  • Straight, Uphill
+  • Recommended speed: 30.3 km/h
+  • Throttle: 26.7%
+  • Steer: -11.0°
+
+Distance 5340–5360 m:
+  • Straight, Flat
+  • Recommended speed: 30.6 km/h
+  • Throttle: 48.6%
+  • Steer: 0.6°
+
+Distance 5360–5380 m:
+  • Straight, Uphill
+  • Recommended speed: 30.9 km/h
+  • Throttle: 67.3%
+  • Steer: -20.4°
+
+Distance 5380–5400 m:
+  • Straight, Uphill
+  • Recommended speed: 30.0 km/h
+  • Throttle: 69.9%
+  • Steer: -2.1°
+
+Distance 5400–5420 m:
+  • Straight, Flat
+  • Recommended speed: 30.3 km/h
+  • Throttle: 11.8%
+  • Steer: 9.5°
+
+Distance 5420–5440 m:
+  • Straight, Downhill
+  • Recommended speed: 33.0 km/h
+  • Throttle: 76.8%
+  • Steer: -21.9°
+
+Distance 5440–5460 m:
+  • Straight, Downhill
+  • Recommended speed: 37.3 km/h
+  • Throttle: 51.6%
+  • Steer: 8.0°
+
+Distance 5460–5480 m:
+  • Straight, Downhill
+  • Recommended speed: 39.4 km/h
+  • Throttle: 6.5%
+  • Steer: 15.3°
+
+Distance 5480–5500 m:
+  • Straight, Downhill
+  • Recommended speed: 40.8 km/h
+  • Throttle: 68.5%
+  • Steer: 10.3°
+
+Distance 5500–5520 m:
+  • Mild turn, Flat
+  • Recommended speed: 40.4 km/h
+  • Throttle: 48.3%
+  • Steer: 6.9°
+
+Distance 5520–5540 m:
+  • Sharp turn, Uphill
+  • Recommended speed: 39.1 km/h
+  • Throttle: 41.8%
+  • Steer: 22.7°
+
+Distance 5540–5560 m:
+  • Mild turn, Flat
+  • Recommended speed: 36.9 km/h
+  • Throttle: 75.9%
+  • Steer: 3.0°
+
+Distance 5560–5580 m:
+  • Sharp turn, Flat
+  • Recommended speed: 36.4 km/h
+  • Throttle: 18.4%
+  • Steer: -4.0°
+
+Distance 5580–5600 m:
+  • Sharp turn, Flat
+  • Recommended speed: 35.9 km/h
+  • Throttle: 65.8%
+  • Steer: 0.3°
+
+Distance 5600–5620 m:
+  • Sharp turn, Uphill
+  • Recommended speed: 33.9 km/h
+  • Throttle: 78.5%
+  • Steer: -19.5°
+
+Distance 5620–5640 m:
+  • Mild turn, Flat
+  • Recommended speed: 31.3 km/h
+  • Throttle: 68.7%
+  • Steer: 1.0°
+
+Distance 5640–5660 m:
+  • Straight, Flat
+  • Recommended speed: 30.3 km/h
+  • Throttle: 21.9%
+  • Steer: -15.1°
+
+Distance 5660–5680 m:
+  • Straight, Flat
+  • Recommended speed: 30.8 km/h
+  • Throttle: 60.3%
+  • Steer: 8.4°
+
+Distance 5680–5700 m:
+  • Straight, Downhill
+  • Recommended speed: 31.7 km/h
+  • Throttle: 18.5%
+  • Steer: -10.9°
+
+Distance 5700–5720 m:
+  • Straight, Downhill
+  • Recommended speed: 33.8 km/h
+  • Throttle: 7.8%
+  • Steer: -20.3°
+
+Distance 5720–5740 m:
+  • Mild turn, Downhill
+  • Recommended speed: 34.7 km/h
+  • Throttle: 16.0%
+  • Steer: -3.6°
+
+Distance 5740–5760 m:
+  • Sharp turn, Downhill
+  • Recommended speed: 37.0 km/h
+  • Throttle: 29.6%
+  • Steer: -17.3°
+
+Distance 5760–5780 m:
+  • Sharp turn, Downhill
+  • Recommended speed: 39.3 km/h
+  • Throttle: 71.9%
+  • Steer: 19.4°
+
+Distance 5780–5800 m:
+  • Sharp turn, Flat
+  • Recommended speed: 41.0 km/h
+  • Throttle: 70.4%
+  • Steer: 7.6°
+
+Distance 5800–5820 m:
+  • Straight, Flat
+  • Recommended speed: 40.4 km/h
+  • Throttle: 8.1%
+  • Steer: -24.0°
+
+Distance 5820–5840 m:
+  • Straight, Uphill
+  • Recommended speed: 38.4 km/h
+  • Throttle: 9.3%
+  • Steer: 2.3°
+
+Distance 5840–5860 m:
+  • Straight, Uphill
+  • Recommended speed: 31.3 km/h
+  • Throttle: 74.0%
+  • Steer: -4.0°
+
+Distance 5860–5880 m:
+  • Straight, Uphill
+  • Recommended speed: 23.3 km/h
+  • Throttle: 77.2%
+  • Steer: -15.7°
+
+Distance 5880–5900 m:
+  • Straight, Uphill
+  • Recommended speed: 22.6 km/h
+  • Throttle: 75.5%
+  • Steer: -15.2°
+
+Distance 5900–5920 m:
+  • Straight, Uphill
+  • Recommended speed: 26.0 km/h
+  • Throttle: 65.8%
+  • Steer: -7.5°
+
+Distance 5920–5940 m:
+  • Mild turn, Uphill
+  • Recommended speed: 24.6 km/h
+  • Throttle: 52.1%
+  • Steer: 12.6°
+
+Distance 5940–5960 m:
+  • Sharp turn, Flat
+  • Recommended speed: 27.8 km/h
+  • Throttle: 74.7%
+  • Steer: -10.9°
+
+Distance 5960–5980 m:
+  • Sharp turn, Downhill
+  • Recommended speed: 30.3 km/h
+  • Throttle: 77.4%
+  • Steer: 7.6°
+
+Distance 5980–6000 m:
+  • Sharp turn, Downhill
+  • Recommended speed: 33.0 km/h
+  • Throttle: 60.2%
+  • Steer: -9.5°
+
+Distance 6000–6020 m:
+  • Mild turn, Downhill
+  • Recommended speed: 39.8 km/h
+  • Throttle: 8.1%
+  • Steer: -14.1°
+
+Distance 6020–6040 m:
+  • Mild turn, Flat
+  • Recommended speed: 40.9 km/h
+  • Throttle: 58.8%
+  • Steer: -16.9°
+
+Distance 6040–6060 m:
+  • Straight, Uphill
+  • Recommended speed: 39.1 km/h
+  • Throttle: 46.8%
+  • Steer: -2.4°
+
+Distance 6060–6080 m:
+  • Straight, Uphill
+  • Recommended speed: 36.6 km/h
+  • Throttle: 75.7%
+  • Steer: 21.4°
+
+Distance 6080–6100 m:
+  • Straight, Flat
+  • Recommended speed: 34.4 km/h
+  • Throttle: 4.7%
+  • Steer: 20.0°
+
+Distance 6100–6120 m:
+  • Straight, Downhill
+  • Recommended speed: 34.9 km/h
+  • Throttle: 25.9%
+  • Steer: 3.8°
+
+Distance 6120–6140 m:
+  • Straight, Flat
+  • Recommended speed: 35.3 km/h
+  • Throttle: 41.7%
+  • Steer: 4.4°
+
+Distance 6140–6160 m:
+  • Straight, Downhill
+  • Recommended speed: 36.0 km/h
+  • Throttle: 37.3%
+  • Steer: 15.0°
+
+Distance 6160–6180 m:
+  • Straight, Downhill
+  • Recommended speed: 38.0 km/h
+  • Throttle: 56.9%
+  • Steer: 8.6°
+
+Distance 6180–6200 m:
+  • Straight, Downhill
+  • Recommended speed: 39.3 km/h
+  • Throttle: 21.6%
+  • Steer: 2.2°
+
+Distance 6200–6220 m:
+  • Straight, Uphill
+  • Recommended speed: 38.8 km/h
+  • Throttle: 39.2%
+  • Steer: -0.8°
+
+Distance 6220–6240 m:
+  • Straight, Flat
+  • Recommended speed: 36.6 km/h
+  • Throttle: 32.0%
+  • Steer: 6.4°
+
+Distance 6240–6260 m:
+  • Mild turn, Downhill
+  • Recommended speed: 36.7 km/h
+  • Throttle: 63.2%
+  • Steer: 15.9°
+
+Distance 6260–6280 m:
+  • Mild turn, Downhill
+  • Recommended speed: 40.8 km/h
+  • Throttle: 38.3%
+  • Steer: -21.3°
+
+Distance 6280–6300 m:
+  • Sharp turn, Downhill
+  • Recommended speed: 43.8 km/h
+  • Throttle: 10.6%
+  • Steer: -23.8°
+
+Distance 6300–6320 m:
+  • Sharp turn, Downhill
+  • Recommended speed: 44.1 km/h
+  • Throttle: 73.3%
+  • Steer: -13.0°
+
+Distance 6320–6340 m:
+  • Sharp turn, Flat
+  • Recommended speed: 41.9 km/h
+  • Throttle: 64.6%
+  • Steer: 18.1°
+
+Distance 6340–6360 m:
+  • Mild turn, Uphill
+  • Recommended speed: 39.0 km/h
+  • Throttle: 53.6%
+  • Steer: 12.4°
+
+Distance 6360–6380 m:
+  • Straight, Uphill
+  • Recommended speed: 34.9 km/h
+  • Throttle: 23.8%
+  • Steer: 5.6°
+
+Distance 6380–6400 m:
+  • Straight, Uphill
+  • Recommended speed: 31.1 km/h
+  • Throttle: 76.7%
+  • Steer: 7.3°
+
+Distance 6400–6420 m:
+  • Straight, Flat
+  • Recommended speed: 32.3 km/h
+  • Throttle: 34.0%
+  • Steer: 3.9°
+
+Distance 6420–6440 m:
+  • Straight, Uphill
+  • Recommended speed: 32.8 km/h
+  • Throttle: 13.1%
+  • Steer: 17.3°
+
+Distance 6440–6460 m:
+  • Straight, Flat
+  • Recommended speed: 32.6 km/h
+  • Throttle: 50.9%
+  • Steer: 16.9°
+
+Distance 6460–6480 m:
+  • Straight, Downhill
+  • Recommended speed: 32.4 km/h
+  • Throttle: 59.3%
+  • Steer: 22.5°
+
+Distance 6480–6500 m:
+  • Straight, Flat
+  • Recommended speed: 32.6 km/h
+  • Throttle: 0.8%
+  • Steer: -19.6°
+
+Distance 6500–6520 m:
+  • Straight, Flat
+  • Recommended speed: 32.7 km/h
+  • Throttle: 59.7%
+  • Steer: 10.7°
+
+Distance 6520–6540 m:
+  • Straight, Flat
+  • Recommended speed: 32.4 km/h
+  • Throttle: 10.1%
+  • Steer: 10.5°
+
+Distance 6540–6560 m:
+  • Straight, Uphill
+  • Recommended speed: 30.5 km/h
+  • Throttle: 54.0%
+  • Steer: 3.6°
+
+Distance 6560–6580 m:
+  • Straight, Uphill
+  • Recommended speed: 28.1 km/h
+  • Throttle: 19.7%
+  • Steer: -20.5°
+
+Distance 6580–6600 m:
+  • Straight, Flat
+  • Recommended speed: 29.2 km/h
+  • Throttle: 70.4%
+  • Steer: -15.4°
+
+Distance 6600–6620 m:
+  • Straight, Downhill
+  • Recommended speed: 30.5 km/h
+  • Throttle: 24.7%
+  • Steer: -12.6°
+
+Distance 6620–6640 m:
+  • Straight, Downhill
+  • Recommended speed: 32.4 km/h
+  • Throttle: 42.6%
+  • Steer: -4.4°
+
+Distance 6640–6660 m:
+  • Straight, Downhill
+  • Recommended speed: 34.9 km/h
+  • Throttle: 33.6%
+  • Steer: 4.6°
+
+Distance 6660–6680 m:
+  • Straight, Downhill
+  • Recommended speed: 38.8 km/h
+  • Throttle: 64.6%
+  • Steer: -24.0°
+
+Distance 6680–6700 m:
+  • Mild turn, Downhill
+  • Recommended speed: 45.0 km/h
+  • Throttle: 43.9%
+  • Steer: 17.6°
+
+Distance 6700–6720 m:
+  • Sharp turn, Downhill
+  • Recommended speed: 49.5 km/h
+  • Throttle: 51.4%
+  • Steer: -22.5°
+
+Distance 6720–6740 m:
+  • Sharp turn, Uphill
+  • Recommended speed: 48.9 km/h
+  • Throttle: 51.1%
+  • Steer: -18.0°
+
+Distance 6740–6760 m:
+  • Sharp turn, Uphill
+  • Recommended speed: 42.1 km/h
+  • Throttle: 24.7%
+  • Steer: -21.8°
+
+Distance 6760–6780 m:
+  • Sharp turn, Uphill
+  • Recommended speed: 21.2 km/h
+  • Throttle: 71.4%
+  • Steer: -19.1°
+
+Distance 6780–6800 m:
+  • Sharp turn, Uphill
+  • Recommended speed: 24.4 km/h
+  • Throttle: 32.7%
+  • Steer: -23.0°
+
+Distance 6800–6820 m:
+  • Mild turn, Uphill
+  • Recommended speed: 26.6 km/h
+  • Throttle: 62.8%
+  • Steer: -10.2°
+
+Distance 6820–6840 m:
+  • Mild turn, Flat
+  • Recommended speed: 27.8 km/h
+  • Throttle: 52.8%
+  • Steer: 0.2°
+
+Distance 6840–6860 m:
+  • Straight, Flat
+  • Recommended speed: 29.4 km/h
+  • Throttle: 14.4%
+  • Steer: -20.9°
+
+Distance 6860–6880 m:
+  • Straight, Flat
+  • Recommended speed: 29.6 km/h
+  • Throttle: 63.9%
+  • Steer: -13.8°
+
+Distance 6880–6900 m:
+  • Straight, Downhill
+  • Recommended speed: 32.2 km/h
+  • Throttle: 42.9%
+  • Steer: 0.2°
+
+Distance 6900–6920 m:
+  • Straight, Downhill
+  • Recommended speed: 34.5 km/h
+  • Throttle: 67.3%
+  • Steer: -2.4°
+
+Distance 6920–6940 m:
+  • Straight, Downhill
+  • Recommended speed: 36.9 km/h
+  • Throttle: 45.4%
+  • Steer: 3.7°
+
+Distance 6940–6960 m:
+  • Straight, Flat
+  • Recommended speed: 36.3 km/h
+  • Throttle: 77.0%
+  • Steer: -2.0°
+
+Distance 6960–6980 m:
+  • Straight, Flat
+  • Recommended speed: 36.1 km/h
+  • Throttle: 19.0%
+  • Steer: 1.8°
+
+Distance 6980–7000 m:
+  • Straight, Uphill
+  • Recommended speed: 35.5 km/h
+  • Throttle: 29.0%
+  • Steer: 0.5°
+
+Distance 7000–7020 m:
+  • Straight, Uphill
+  • Recommended speed: 31.4 km/h
+  • Throttle: 77.9%
+  • Steer: 14.5°
+
+Distance 7020–7040 m:
+  • Straight, Uphill
+  • Recommended speed: 28.4 km/h
+  • Throttle: 55.9%
+  • Steer: -24.6°
+
+Distance 7040–7060 m:
+  • Straight, Uphill
+  • Recommended speed: 27.9 km/h
+  • Throttle: 70.2%
+  • Steer: -5.3°
+
+Distance 7060–7080 m:
+  • Straight, Flat
+  • Recommended speed: 27.5 km/h
+  • Throttle: 49.3%
+  • Steer: -9.4°
+
+Distance 7080–7100 m:
+  • Straight, Downhill
+  • Recommended speed: 31.3 km/h
+  • Throttle: 14.3%
+  • Steer: 7.5°
+
+Distance 7100–7120 m:
+  • Straight, Flat
+  • Recommended speed: 32.6 km/h
+  • Throttle: 36.0%
+  • Steer: 4.7°
+
+Distance 7120–7140 m:
+  • Straight, Downhill
+  • Recommended speed: 33.3 km/h
+  • Throttle: 26.7%
+  • Steer: 15.0°
+
+Distance 7140–7160 m:
+  • Straight, Uphill
+  • Recommended speed: 32.7 km/h
+  • Throttle: 28.4%
+  • Steer: -11.8°
+
+Distance 7160–7180 m:
+  • Straight, Flat
+  • Recommended speed: 31.2 km/h
+  • Throttle: 42.6%
+  • Steer: 8.2°
+
+Distance 7180–7200 m:
+  • Straight, Downhill
+  • Recommended speed: 32.9 km/h
+  • Throttle: 43.9%
+  • Steer: -21.0°
+
+Distance 7200–7220 m:
+  • Straight, Downhill
+  • Recommended speed: 35.4 km/h
+  • Throttle: 61.4%
+  • Steer: -1.4°
+
+Distance 7220–7240 m:
+  • Straight, Downhill
+  • Recommended speed: 38.0 km/h
+  • Throttle: 34.0%
+  • Steer: 9.2°
+
+Distance 7240–7260 m:
+  • Straight, Downhill
+  • Recommended speed: 40.8 km/h
+  • Throttle: 35.4%
+  • Steer: 2.5°
+
+Distance 7260–7280 m:
+  • Straight, Flat
+  • Recommended speed: 40.5 km/h
+  • Throttle: 72.5%
+  • Steer: 5.7°
+
+Distance 7280–7300 m:
+  • Mild turn, Uphill
+  • Recommended speed: 39.3 km/h
+  • Throttle: 14.0%
+  • Steer: -9.0°
+
+Distance 7300–7320 m:
+  • Straight, Flat
+  • Recommended speed: 37.5 km/h
+  • Throttle: 62.9%
+  • Steer: 21.7°
+
+Distance 7320–7340 m:
+  • Mild turn, Flat
+  • Recommended speed: 35.6 km/h
+  • Throttle: 58.3%
+  • Steer: 22.7°
+
+Distance 7340–7360 m:
+  • Straight, Uphill
+  • Recommended speed: 33.5 km/h
+  • Throttle: 49.9%
+  • Steer: 16.1°
+
+Distance 7360–7380 m:
+  • Mild turn, Uphill
+  • Recommended speed: 31.5 km/h
+  • Throttle: 57.4%
+  • Steer: -20.6°
+
+Distance 7380–7400 m:
+  • Mild turn, Flat
+  • Recommended speed: 31.6 km/h
+  • Throttle: 30.8%
+  • Steer: 20.9°
+
+Distance 7400–7420 m:
+  • Straight, Flat
+  • Recommended speed: 32.0 km/h
+  • Throttle: 25.0%
+  • Steer: -4.6°
+
+Distance 7420–7440 m:
+  • Mild turn, Downhill
+  • Recommended speed: 33.6 km/h
+  • Throttle: 73.7%
+  • Steer: 12.5°
+
+Distance 7440–7460 m:
+  • Straight, Downhill
+  • Recommended speed: 36.0 km/h
+  • Throttle: 61.7%
+  • Steer: -13.7°
+
+Distance 7460–7480 m:
+  • Straight, Downhill
+  • Recommended speed: 37.7 km/h
+  • Throttle: 61.9%
+  • Steer: -11.4°
+
+Distance 7480–7500 m:
+  • Straight, Flat
+  • Recommended speed: 37.5 km/h
+  • Throttle: 23.5%
+  • Steer: 17.9°
+
+Distance 7500–7520 m:
+  • Straight, Flat
+  • Recommended speed: 35.9 km/h
+  • Throttle: 57.6%
+  • Steer: 10.2°
+
+Distance 7520–7540 m:
+  • Straight, Flat
+  • Recommended speed: 34.3 km/h
+  • Throttle: 75.3%
+  • Steer: 2.5°
+
+Distance 7540–7560 m:
+  • Straight, Downhill
+  • Recommended speed: 33.9 km/h
+  • Throttle: 26.1%
+  • Steer: 6.7°
+
+Distance 7560–7580 m:
+  • Straight, Downhill
+  • Recommended speed: 35.6 km/h
+  • Throttle: 16.9%
+  • Steer: -18.3°
+
+Distance 7580–7600 m:
+  • Straight, Downhill
+  • Recommended speed: 37.9 km/h
+  • Throttle: 71.3%
+  • Steer: 24.8°
+
+Distance 7600–7620 m:
+  • Straight, Downhill
+  • Recommended speed: 39.7 km/h
+  • Throttle: 67.4%
+  • Steer: -1.2°
+
+Distance 7620–7640 m:
+  • Straight, Downhill
+  • Recommended speed: 42.4 km/h
+  • Throttle: 50.1%
+  • Steer: 24.1°
+
+Distance 7640–7660 m:
+  • Straight, Uphill
+  • Recommended speed: 40.0 km/h
+  • Throttle: 52.2%
+  • Steer: 17.7°
+
+Distance 7660–7680 m:
+  • Straight, Uphill
+  • Recommended speed: 38.1 km/h
+  • Throttle: 71.5%
+  • Steer: -9.4°
+
+Distance 7680–7700 m:
+  • Straight, Uphill
+  • Recommended speed: 32.5 km/h
+  • Throttle: 25.6%
+  • Steer: 11.2°
+
+Distance 7700–7720 m:
+  • Straight, Uphill
+  • Recommended speed: 29.0 km/h
+  • Throttle: 49.8%
+  • Steer: -0.2°
+
+Distance 7720–7740 m:
+  • Straight, Uphill
+  • Recommended speed: 28.9 km/h
+  • Throttle: 43.1%
+  • Steer: 14.9°
+
+Distance 7740–7760 m:
+  • Straight, Flat
+  • Recommended speed: 29.6 km/h
+  • Throttle: 60.1%
+  • Steer: -16.7°
+
+Distance 7760–7780 m:
+  • Straight, Flat
+  • Recommended speed: 29.8 km/h
+  • Throttle: 22.2%
+  • Steer: -18.1°
+
+Distance 7780–7800 m:
+  • Straight, Downhill
+  • Recommended speed: 32.4 km/h
+  • Throttle: 79.9%
+  • Steer: 21.6°
+
+Distance 7800–7820 m:
+  • Straight, Flat
+  • Recommended speed: 33.6 km/h
+  • Throttle: 36.6%
+  • Steer: -2.5°
+
+Distance 7820–7840 m:
+  • Straight, Downhill
+  • Recommended speed: 33.1 km/h
+  • Throttle: 19.9%
+  • Steer: 19.7°
+
+Distance 7840–7860 m:
+  • Straight, Uphill
+  • Recommended speed: 33.4 km/h
+  • Throttle: 0.5%
+  • Steer: -10.6°
+
+Distance 7860–7880 m:
+  • Straight, Flat
+  • Recommended speed: 30.5 km/h
+  • Throttle: 61.8%
+  • Steer: 11.1°
+
+Distance 7880–7900 m:
+  • Mild turn, Downhill
+  • Recommended speed: 31.0 km/h
+  • Throttle: 70.7%
+  • Steer: 5.8°
+
+Distance 7900–7920 m:
+  • Mild turn, Downhill
+  • Recommended speed: 32.9 km/h
+  • Throttle: 44.0%
+  • Steer: 14.8°
+
+Distance 7920–7940 m:
+  • Sharp turn, Downhill
+  • Recommended speed: 34.6 km/h
+  • Throttle: 3.2%
+  • Steer: -0.2°
+
+Distance 7940–7960 m:
+  • Sharp turn, Uphill
+  • Recommended speed: 33.1 km/h
+  • Throttle: 24.6%
+  • Steer: -3.0°
+
+Distance 7960–7980 m:
+  • Sharp turn, Uphill
+  • Recommended speed: 26.1 km/h
+  • Throttle: 63.5%
+  • Steer: 12.5°
+
+Distance 7980–8000 m:
+  • Sharp turn, Flat
+  • Recommended speed: 24.5 km/h
+  • Throttle: 76.7%
+  • Steer: 22.2°
+
+Distance 8000–8020 m:
+  • Sharp turn, Flat
+  • Recommended speed: 27.8 km/h
+  • Throttle: 52.4%
+  • Steer: -17.7°
+
+Distance 8020–8040 m:
+  • Sharp turn, Downhill
+  • Recommended speed: 34.8 km/h
+  • Throttle: 69.4%
+  • Steer: 23.7°
+
+Distance 8040–8060 m:
+  • Sharp turn, Downhill
+  • Recommended speed: 37.8 km/h
+  • Throttle: 78.8%
+  • Steer: 4.7°
+
+Distance 8060–8080 m:
+  • Mild turn, Downhill
+  • Recommended speed: 40.4 km/h
+  • Throttle: 58.8%
+  • Steer: 2.2°
+
+Distance 8080–8100 m:
+  • Mild turn, Flat
+  • Recommended speed: 41.1 km/h
+  • Throttle: 58.0%
+  • Steer: 25.0°
+
+Distance 8100–8120 m:
+  • Mild turn, Flat
+  • Recommended speed: 41.1 km/h
+  • Throttle: 47.0%
+  • Steer: 0.4°
+
+Distance 8120–8140 m:
+  • Mild turn, Uphill
+  • Recommended speed: 39.0 km/h
+  • Throttle: 40.0%
+  • Steer: 1.9°
+
+Distance 8140–8160 m:
+  • Straight, Uphill
+  • Recommended speed: 36.7 km/h
+  • Throttle: 24.6%
+  • Steer: 24.6°
+
+Distance 8160–8180 m:
+  • Straight, Flat
+  • Recommended speed: 33.4 km/h
+  • Throttle: 13.3%
+  • Steer: -21.7°
+
+Distance 8180–8200 m:
+  • Straight, Uphill
+  • Recommended speed: 32.8 km/h
+  • Throttle: 1.4%
+  • Steer: 19.3°
+
+Distance 8200–8220 m:
+  • Straight, Flat
+  • Recommended speed: 31.9 km/h
+  • Throttle: 26.5%
+  • Steer: 15.9°
+
+Distance 8220–8240 m:
+  • Straight, Downhill
+  • Recommended speed: 33.5 km/h
+  • Throttle: 43.4%
+  • Steer: -2.9°
+
+Distance 8240–8260 m:
+  • Straight, Uphill
+  • Recommended speed: 34.3 km/h
+  • Throttle: 12.1%
+  • Steer: -6.1°
+
+Distance 8260–8280 m:
+  • Straight, Flat
+  • Recommended speed: 33.4 km/h
+  • Throttle: 0.8%
+  • Steer: -22.0°
+
+Distance 8280–8300 m:
+  • Straight, Uphill
+  • Recommended speed: 31.5 km/h
+  • Throttle: 33.2%
+  • Steer: -7.4°
+
+Distance 8300–8320 m:
+  • Straight, Flat
+  • Recommended speed: 32.3 km/h
+  • Throttle: 38.8%
+  • Steer: 13.6°
+
+Distance 8320–8340 m:
+  • Straight, Downhill
+  • Recommended speed: 33.1 km/h
+  • Throttle: 12.1%
+  • Steer: 17.7°
+
+Distance 8340–8360 m:
+  • Straight, Downhill
+  • Recommended speed: 34.0 km/h
+  • Throttle: 53.1%
+  • Steer: -23.9°
+
+Distance 8360–8380 m:
+  • Straight, Flat
+  • Recommended speed: 34.8 km/h
+  • Throttle: 19.9%
+  • Steer: 21.3°
+
+Distance 8380–8400 m:
+  • Mild turn, Uphill
+  • Recommended speed: 34.8 km/h
+  • Throttle: 52.3%
+  • Steer: 11.6°
+
+Distance 8400–8420 m:
+  • Mild turn, Uphill
+  • Recommended speed: 32.3 km/h
+  • Throttle: 19.1%
+  • Steer: 5.2°
+
+Distance 8420–8440 m:
+  • Straight, Uphill
+  • Recommended speed: 31.4 km/h
+  • Throttle: 73.1%
+  • Steer: -1.1°
+
+Distance 8440–8460 m:
+  • Sharp turn, Flat
+  • Recommended speed: 30.5 km/h
+  • Throttle: 72.5%
+  • Steer: 7.3°
+
+Distance 8460–8480 m:
+  • Sharp turn, Flat
+  • Recommended speed: 30.5 km/h
+  • Throttle: 38.7%
+  • Steer: -8.1°
+
+Distance 8480–8500 m:
+  • Mild turn, Uphill
+  • Recommended speed: 29.7 km/h
+  • Throttle: 62.7%
+  • Steer: 22.4°
+
+Distance 8500–8520 m:
+  • Mild turn, Uphill
+  • Recommended speed: 29.3 km/h
+  • Throttle: 65.3%
+  • Steer: 23.0°
+
+Distance 8520–8540 m:
+  • Mild turn, Uphill
+  • Recommended speed: 30.0 km/h
+  • Throttle: 75.9%
+  • Steer: 20.5°
+
+Distance 8540–8560 m:
+  • Mild turn, Uphill
+  • Recommended speed: 29.2 km/h
+  • Throttle: 65.8%
+  • Steer: -0.9°
+
+Distance 8560–8580 m:
+  • Straight, Flat
+  • Recommended speed: 29.8 km/h
+  • Throttle: 76.7%
+  • Steer: 14.8°
+
+Distance 8580–8600 m:
+  • Mild turn, Flat
+  • Recommended speed: 30.1 km/h
+  • Throttle: 6.7%
+  • Steer: 17.2°
+
+Distance 8600–8620 m:
+  • Mild turn, Flat
+  • Recommended speed: 30.0 km/h
+  • Throttle: 54.6%
+  • Steer: 17.2°
+
+Distance 8620–8640 m:
+  • Mild turn, Flat
+  • Recommended speed: 30.4 km/h
+  • Throttle: 13.5%
+  • Steer: -9.4°
+
+Distance 8640–8660 m:
+  • Mild turn, Flat
+  • Recommended speed: 31.1 km/h
+  • Throttle: 37.9%
+  • Steer: -4.7°
+
+Distance 8660–8680 m:
+  • Straight, Flat
+  • Recommended speed: 30.8 km/h
+  • Throttle: 24.3%
+  • Steer: -21.6°
+
+Distance 8680–8700 m:
+  • Straight, Flat
+  • Recommended speed: 30.0 km/h
+  • Throttle: 63.9%
+  • Steer: -12.4°
+
+Distance 8700–8720 m:
+  • Straight, Uphill
+  • Recommended speed: 29.9 km/h
+  • Throttle: 65.8%
+  • Steer: 22.2°
+
+Distance 8720–8740 m:
+  • Straight, Uphill
+  • Recommended speed: 29.8 km/h
+  • Throttle: 53.1%
+  • Steer: 16.5°
+
+Distance 8740–8760 m:
+  • Mild turn, Flat
+  • Recommended speed: 29.9 km/h
+  • Throttle: 67.4%
+  • Steer: -12.9°
+
+Distance 8760–8780 m:
+  • Mild turn, Downhill
+  • Recommended speed: 31.8 km/h
+  • Throttle: 49.9%
+  • Steer: 9.9°
+
+Distance 8780–8800 m:
+  • Straight, Flat
+  • Recommended speed: 33.2 km/h
+  • Throttle: 47.1%
+  • Steer: -12.3°
+
+Distance 8800–8820 m:
+  • Straight, Flat
+  • Recommended speed: 33.2 km/h
+  • Throttle: 19.7%
+  • Steer: -19.0°
+
+Distance 8820–8840 m:
+  • Straight, Downhill
+  • Recommended speed: 35.0 km/h
+  • Throttle: 43.4%
+  • Steer: 1.7°
+
+Distance 8840–8860 m:
+  • Straight, Downhill
+  • Recommended speed: 37.0 km/h
+  • Throttle: 17.3%
+  • Steer: 10.5°
+
+Distance 8860–8880 m:
+  • Straight, Flat
+  • Recommended speed: 38.8 km/h
+  • Throttle: 0.7%
+  • Steer: 18.6°
+
+Distance 8880–8900 m:
+  • Straight, Flat
+  • Recommended speed: 38.3 km/h
+  • Throttle: 72.5%
+  • Steer: 2.1°
+
+Distance 8900–8920 m:
+  • Straight, Flat
+  • Recommended speed: 37.8 km/h
+  • Throttle: 7.8%
+  • Steer: -18.2°
+
+Distance 8920–8940 m:
+  • Straight, Flat
+  • Recommended speed: 36.9 km/h
+  • Throttle: 72.4%
+  • Steer: -5.6°
+
+Distance 8940–8960 m:
+  • Straight, Flat
+  • Recommended speed: 35.0 km/h
+  • Throttle: 72.6%
+  • Steer: 18.4°
+
+Distance 8960–8980 m:
+  • Straight, Downhill
+  • Recommended speed: 34.3 km/h
+  • Throttle: 42.6%
+  • Steer: 14.6°
+
+Distance 8980–9000 m:
+  • Straight, Uphill
+  • Recommended speed: 32.7 km/h
+  • Throttle: 65.9%
+  • Steer: 11.2°
+
+Distance 9000–9020 m:
+  • Mild turn, Uphill
+  • Recommended speed: 30.5 km/h
+  • Throttle: 50.2%
+  • Steer: 3.4°
+
+Distance 9020–9040 m:
+  • Straight, Flat
+  • Recommended speed: 30.9 km/h
+  • Throttle: 63.5%
+  • Steer: -21.8°
+
+Distance 9040–9060 m:
+  • Straight, Flat
+  • Recommended speed: 30.6 km/h
+  • Throttle: 33.4%
+  • Steer: -21.0°
+
+Distance 9060–9080 m:
+  • Straight, Flat
+  • Recommended speed: 29.9 km/h
+  • Throttle: 17.4%
+  • Steer: 21.7°
+
+Distance 9080–9100 m:
+  • Straight, Flat
+  • Recommended speed: 30.3 km/h
+  • Throttle: 15.5%
+  • Steer: -10.5°
+
+Distance 9100–9120 m:
+  • Straight, Downhill
+  • Recommended speed: 33.9 km/h
+  • Throttle: 35.9%
+  • Steer: 18.1°
+
+Distance 9120–9140 m:
+  • Straight, Downhill
+  • Recommended speed: 37.8 km/h
+  • Throttle: 63.8%
+  • Steer: 12.1°
+
+Distance 9140–9160 m:
+  • Straight, Downhill
+  • Recommended speed: 39.8 km/h
+  • Throttle: 52.1%
+  • Steer: -16.9°
+
+Distance 9160–9180 m:
+  • Straight, Downhill
+  • Recommended speed: 41.1 km/h
+  • Throttle: 15.7%
+  • Steer: -12.5°
+
+Distance 9180–9200 m:
+  • Mild turn, Uphill
+  • Recommended speed: 40.1 km/h
+  • Throttle: 34.2%
+  • Steer: -6.5°
+
+Distance 9200–9220 m:
+  • Sharp turn, Flat
+  • Recommended speed: 38.5 km/h
+  • Throttle: 10.4%
+  • Steer: -10.5°
+
+Distance 9220–9240 m:
+  • Mild turn, Uphill
+  • Recommended speed: 36.4 km/h
+  • Throttle: 43.4%
+  • Steer: -24.9°
+
+Distance 9240–9260 m:
+  • Sharp turn, Flat
+  • Recommended speed: 36.1 km/h
+  • Throttle: 25.2%
+  • Steer: 4.5°
+
+Distance 9260–9280 m:
+  • Sharp turn, Uphill
+  • Recommended speed: 35.3 km/h
+  • Throttle: 58.7%
+  • Steer: -6.8°
+
+Distance 9280–9300 m:
+  • Sharp turn, Uphill
+  • Recommended speed: 32.9 km/h
+  • Throttle: 11.6%
+  • Steer: -1.1°
+
+Distance 9300–9320 m:
+  • Mild turn, Uphill
+  • Recommended speed: 31.1 km/h
+  • Throttle: 43.8%
+  • Steer: 13.8°
+
+Distance 9320–9340 m:
+  • Straight, Uphill
+  • Recommended speed: 30.0 km/h
+  • Throttle: 40.8%
+  • Steer: 2.6°
+
+Distance 9340–9360 m:
+  • Straight, Flat
+  • Recommended speed: 31.0 km/h
+  • Throttle: 58.8%
+  • Steer: 24.3°
+
+Distance 9360–9380 m:
+  • Straight, Downhill
+  • Recommended speed: 32.3 km/h
+  • Throttle: 70.4%
+  • Steer: -6.4°
+
+Distance 9380–9400 m:
+  • Straight, Downhill
+  • Recommended speed: 34.0 km/h
+  • Throttle: 13.5%
+  • Steer: 1.4°
+
+Distance 9400–9420 m:
+  • Mild turn, Flat
+  • Recommended speed: 35.1 km/h
+  • Throttle: 42.7%
+  • Steer: 24.9°
+
+Distance 9420–9440 m:
+  • Sharp turn, Downhill
+  • Recommended speed: 37.6 km/h
+  • Throttle: 41.5%
+  • Steer: -1.4°
+
+Distance 9440–9460 m:
+  • Sharp turn, Downhill
+  • Recommended speed: 39.6 km/h
+  • Throttle: 19.6%
+  • Steer: 9.6°
+
+Distance 9460–9480 m:
+  • Mild turn, Downhill
+  • Recommended speed: 41.3 km/h
+  • Throttle: 9.0%
+  • Steer: -21.3°
+
+Distance 9480–9500 m:
+  • Mild turn, Flat
+  • Recommended speed: 40.3 km/h
+  • Throttle: 54.7%
+  • Steer: 9.2°
+
+Distance 9500–9520 m:
+  • Mild turn, Uphill
+  • Recommended speed: 37.1 km/h
+  • Throttle: 75.5%
+  • Steer: -19.5°
+
+Distance 9520–9540 m:
+  • Straight, Uphill
+  • Recommended speed: 29.6 km/h
+  • Throttle: 70.2%
+  • Steer: -17.8°
+
+Distance 9540–9560 m:
+  • Straight, Uphill
+  • Recommended speed: 24.6 km/h
+  • Throttle: 69.5%
+  • Steer: -15.2°
+
+Distance 9560–9580 m:
+  • Straight, Uphill
+  • Recommended speed: 23.3 km/h
+  • Throttle: 58.7%
+  • Steer: 14.3°
+
+Distance 9580–9600 m:
+  • Straight, Uphill
+  • Recommended speed: 24.8 km/h
+  • Throttle: 55.3%
+  • Steer: 20.5°
+
+Distance 9600–9620 m:
+  • Mild turn, Uphill
+  • Recommended speed: 23.8 km/h
+  • Throttle: 72.6%
+  • Steer: 8.8°
+
+Distance 9620–9640 m:
+  • Mild turn, Flat
+  • Recommended speed: 28.1 km/h
+  • Throttle: 75.9%
+  • Steer: -24.4°
+
+Distance 9640–9660 m:
+  • Sharp turn, Downhill
+  • Recommended speed: 30.8 km/h
+  • Throttle: 36.3%
+  • Steer: 10.4°
+
+Distance 9660–9680 m:
+  • Sharp turn, Downhill
+  • Recommended speed: 33.3 km/h
+  • Throttle: 21.0%
+  • Steer: 20.8°
+
+Distance 9680–9700 m:
+  • Mild turn, Downhill
+  • Recommended speed: 40.1 km/h
+  • Throttle: 68.9%
+  • Steer: -14.4°
+
+Distance 9700–9720 m:
+  • Straight, Uphill
+  • Recommended speed: 40.7 km/h
+  • Throttle: 61.0%
+  • Steer: 24.3°
+
+Distance 9720–9740 m:
+  • Straight, Uphill
+  • Recommended speed: 38.6 km/h
+  • Throttle: 75.8%
+  • Steer: 10.4°
+
+Distance 9740–9760 m:
+  • Straight, Uphill
+  • Recommended speed: 36.1 km/h
+  • Throttle: 66.2%
+  • Steer: 0.1°
+
+Distance 9760–9780 m:
+  • Straight, Downhill
+  • Recommended speed: 34.3 km/h
+  • Throttle: 68.5%
+  • Steer: -8.3°
+
+Distance 9780–9800 m:
+  • Straight, Downhill
+  • Recommended speed: 35.0 km/h
+  • Throttle: 66.6%
+  • Steer: -2.4°
+
+Distance 9800–9820 m:
+  • Straight, Flat
+  • Recommended speed: 35.1 km/h
+  • Throttle: 22.8%
+  • Steer: 21.2°
+
+Distance 9820–9840 m:
+  • Straight, Downhill
+  • Recommended speed: 36.4 km/h
+  • Throttle: 79.5%
+  • Steer: 1.4°
+
+Distance 9840–9860 m:
+  • Straight, Flat
+  • Recommended speed: 38.3 km/h
+  • Throttle: 70.7%
+  • Steer: 15.0°
+
+Distance 9860–9880 m:
+  • Straight, Downhill
+  • Recommended speed: 39.2 km/h
+  • Throttle: 49.8%
+  • Steer: 10.6°
+
+Distance 9880–9900 m:
+  • Straight, Uphill
+  • Recommended speed: 38.3 km/h
+  • Throttle: 34.1%
+  • Steer: -8.3°
+
+Distance 9900–9920 m:
+  • Straight, Flat
+  • Recommended speed: 36.4 km/h
+  • Throttle: 57.7%
+  • Steer: 9.5°
+
+Distance 9920–9940 m:
+  • Mild turn, Flat
+  • Recommended speed: 36.9 km/h
+  • Throttle: 68.0%
+  • Steer: -19.1°
+
+Distance 9940–9960 m:
+  • Sharp turn, Downhill
+  • Recommended speed: 41.8 km/h
+  • Throttle: 35.9%
+  • Steer: -21.5°
+
+Distance 9960–9980 m:
+  • Sharp turn, Downhill
+  • Recommended speed: 43.5 km/h
+  • Throttle: 7.7%
+  • Steer: -23.0°
+
+Distance 9980–10000 m:
+  • Sharp turn, Flat
+  • Recommended speed: 43.7 km/h
+  • Throttle: 68.9%
+  • Steer: -10.4°
+
+Distance 10000–10020 m:
+  • Mild turn, Flat
+  • Recommended speed: 40.2 km/h
+  • Throttle: 34.2%
+  • Steer: 19.9°
+
+Distance 10020–10040 m:
+  • Straight, Uphill
+  • Recommended speed: 37.8 km/h
+  • Throttle: 35.6%
+  • Steer: -3.5°
+
+Distance 10040–10060 m:
+  • Straight, Uphill
+  • Recommended speed: 33.2 km/h
+  • Throttle: 36.8%
+  • Steer: -0.9°
+
+Distance 10060–10080 m:
+  • Straight, Downhill
+  • Recommended speed: 30.7 km/h
+  • Throttle: 7.1%
+  • Steer: -5.7°
+
+Distance 10080–10100 m:
+  • Straight, Downhill
+  • Recommended speed: 32.1 km/h
+  • Throttle: 34.7%
+  • Steer: -13.4°
+
+Distance 10100–10120 m:
+  • Straight, Flat
+  • Recommended speed: 32.0 km/h
+  • Throttle: 55.0%
+  • Steer: 0.3°
+
+Distance 10120–10140 m:
+  • Straight, Flat
+  • Recommended speed: 32.3 km/h
+  • Throttle: 27.3%
+  • Steer: 2.0°
+
+Distance 10140–10160 m:
+  • Straight, Flat
+  • Recommended speed: 32.5 km/h
+  • Throttle: 59.8%
+  • Steer: 6.1°
+
+Distance 10160–10180 m:
+  • Straight, Flat
+  • Recommended speed: 32.6 km/h
+  • Throttle: 31.1%
+  • Steer: -5.3°
+
+Distance 10180–10200 m:
+  • Straight, Flat
+  • Recommended speed: 32.4 km/h
+  • Throttle: 66.8%
+  • Steer: 16.5°
+
+Distance 10200–10220 m:
+  • Straight, Uphill
+  • Recommended speed: 32.2 km/h
+  • Throttle: 33.0%
+  • Steer: -23.7°
+
+Distance 10220–10240 m:
+  • Straight, Uphill
+  • Recommended speed: 29.9 km/h
+  • Throttle: 70.8%
+  • Steer: 24.9°
+
+Distance 10240–10260 m:
+  • Straight, Uphill
+  • Recommended speed: 28.3 km/h
+  • Throttle: 71.5%
+  • Steer: -15.1°
+
+Distance 10260–10280 m:
+  • Straight, Flat
+  • Recommended speed: 29.5 km/h
+  • Throttle: 79.8%
+  • Steer: -10.6°
+
+Distance 10280–10300 m:
+  • Straight, Downhill
+  • Recommended speed: 30.7 km/h
+  • Throttle: 52.8%
+  • Steer: 13.5°
+
+Distance 10300–10320 m:
+  • Straight, Downhill
+  • Recommended speed: 32.9 km/h
+  • Throttle: 74.4%
+  • Steer: -11.5°
+
+Distance 10320–10340 m:
+  • Straight, Downhill
+  • Recommended speed: 35.9 km/h
+  • Throttle: 10.8%
+  • Steer: 1.4°
+
+Distance 10340–10360 m:
+  • Straight, Downhill
+  • Recommended speed: 39.8 km/h
+  • Throttle: 55.9%
+  • Steer: 16.6°
+
+Distance 10360–10380 m:
+  • Sharp turn, Downhill
+  • Recommended speed: 45.8 km/h
+  • Throttle: 43.2%
+  • Steer: -5.3°
+
+Distance 10380–10400 m:
+  • Sharp turn, Downhill
+  • Recommended speed: 49.4 km/h
+  • Throttle: 26.5%
+  • Steer: -24.7°
+
+Distance 10400–10420 m:
+  • Sharp turn, Uphill
+  • Recommended speed: 46.4 km/h
+  • Throttle: 5.6%
+  • Steer: 20.0°
+
+Distance 10420–10440 m:
+  • Sharp turn, Flat
+  • Recommended speed: 40.9 km/h
+  • Throttle: 42.0%
+  • Steer: 15.8°
+
+Distance 10440–10460 m:
+  • Sharp turn, Uphill
+  • Recommended speed: 22.5 km/h
+  • Throttle: 78.2%
+  • Steer: 9.3°
+
+Distance 10460–10480 m:
+  • Sharp turn, Flat
+  • Recommended speed: 24.9 km/h
+  • Throttle: 75.3%
+  • Steer: 8.0°
+
+Distance 10480–10500 m:
+  • Sharp turn, Uphill
+  • Recommended speed: 25.8 km/h
+  • Throttle: 49.7%
+  • Steer: -4.3°
+
+Distance 10500–10520 m:
+  • Mild turn, Flat
+  • Recommended speed: 27.8 km/h
+  • Throttle: 57.9%
+  • Steer: -8.4°
+
+Distance 10520–10540 m:
+  • Straight, Flat
+  • Recommended speed: 28.9 km/h
+  • Throttle: 33.8%
+  • Steer: 11.2°
+
+Distance 10540–10560 m:
+  • Straight, Downhill
+  • Recommended speed: 29.7 km/h
+  • Throttle: 44.9%
+  • Steer: 1.3°
+
+Distance 10560–10580 m:
+  • Straight, Downhill
+  • Recommended speed: 32.8 km/h
+  • Throttle: 75.0%
+  • Steer: -10.9°
+
+Distance 10580–10600 m:
+  • Straight, Downhill
+  • Recommended speed: 34.9 km/h
+  • Throttle: 49.6%
+  • Steer: -5.1°
+
+Distance 10600–10620 m:
+  • Straight, Uphill
+  • Recommended speed: 36.8 km/h
+  • Throttle: 35.5%
+  • Steer: 10.3°
+
+Distance 10620–10640 m:
+  • Straight, Flat
+  • Recommended speed: 35.7 km/h
+  • Throttle: 15.8%
+  • Steer: 4.7°
+
+Distance 10640–10660 m:
+  • Straight, Flat
+  • Recommended speed: 36.0 km/h
+  • Throttle: 7.8%
+  • Steer: -11.6°
+
+Distance 10660–10680 m:
+  • Straight, Uphill
+  • Recommended speed: 34.6 km/h
+  • Throttle: 4.7%
+  • Steer: 10.7°
+
+Distance 10680–10700 m:
+  • Straight, Uphill
+  • Recommended speed: 29.5 km/h
+  • Throttle: 64.0%
+  • Steer: 9.5°
+
+Distance 10700–10720 m:
+  • Straight, Uphill
+  • Recommended speed: 28.0 km/h
+  • Throttle: 40.9%
+  • Steer: -10.5°
+
+Distance 10720–10740 m:
+  • Straight, Uphill
+  • Recommended speed: 27.0 km/h
+  • Throttle: 57.0%
+  • Steer: -6.0°
+
+Distance 10740–10760 m:
+  • Straight, Downhill
+  • Recommended speed: 28.1 km/h
+  • Throttle: 59.2%
+  • Steer: 0.6°
+
+Distance 10760–10780 m:
+  • Straight, Downhill
+  • Recommended speed: 31.5 km/h
+  • Throttle: 9.9%
+  • Steer: 2.1°
+
+Distance 10780–10800 m:
+  • Straight, Downhill
+  • Recommended speed: 32.8 km/h
+  • Throttle: 24.2%
+  • Steer: 8.3°
+
+Distance 10800–10820 m:
+  • Straight, Flat
+  • Recommended speed: 33.2 km/h
+  • Throttle: 47.0%
+  • Steer: -12.3°
+
+Distance 10820–10840 m:
+  • Straight, Flat
+  • Recommended speed: 32.5 km/h
+  • Throttle: 34.3%
+  • Steer: -7.6°
+
+Distance 10840–10860 m:
+  • Straight, Flat
+  • Recommended speed: 30.8 km/h
+  • Throttle: 63.9%
+  • Steer: 15.4°
+
+Distance 10860–10880 m:
+  • Straight, Downhill
+  • Recommended speed: 33.3 km/h
+  • Throttle: 40.3%
+  • Steer: -0.3°
+
+Distance 10880–10900 m:
+  • Straight, Downhill
+  • Recommended speed: 35.8 km/h
+  • Throttle: 66.3%
+  • Steer: 1.2°
+
+Distance 10900–10920 m:
+  • Straight, Downhill
+  • Recommended speed: 38.5 km/h
+  • Throttle: 59.1%
+  • Steer: 23.0°
+
+Distance 10920–10940 m:
+  • Straight, Flat
+  • Recommended speed: 40.9 km/h
+  • Throttle: 46.5%
+  • Steer: 14.1°
+
+Distance 10940–10960 m:
+  • Mild turn, Flat
+  • Recommended speed: 40.4 km/h
+  • Throttle: 64.3%
+  • Steer: -8.5°
+
+Distance 10960–10980 m:
+  • Straight, Flat
+  • Recommended speed: 38.9 km/h
+  • Throttle: 35.8%
+  • Steer: -10.0°
+
+Distance 10980–11000 m:
+  • Straight, Uphill
+  • Recommended speed: 37.1 km/h
+  • Throttle: 48.5%
+  • Steer: 8.9°
+
+Distance 11000–11020 m:
+  • Straight, Uphill
+  • Recommended speed: 35.1 km/h
+  • Throttle: 55.9%
+  • Steer: 0.2°
+
+Distance 11020–11040 m:
+  • Mild turn, Flat
+  • Recommended speed: 32.7 km/h
+  • Throttle: 70.8%
+  • Steer: -12.8°
+
+Distance 11040–11060 m:
+  • Mild turn, Flat
+  • Recommended speed: 31.4 km/h
+  • Throttle: 73.7%
+  • Steer: -5.0°
+
+Distance 11060–11080 m:
+  • Mild turn, Flat
+  • Recommended speed: 31.5 km/h
+  • Throttle: 11.5%
+  • Steer: 19.4°
+
+Distance 11080–11100 m:
+  • Mild turn, Downhill
+  • Recommended speed: 31.9 km/h
+  • Throttle: 8.7%
+  • Steer: 19.7°
+
+Distance 11100–11120 m:
+  • Straight, Downhill
+  • Recommended speed: 34.1 km/h
+  • Throttle: 75.9%
+  • Steer: -0.0°
+
+Distance 11120–11140 m:
+  • Mild turn, Downhill
+  • Recommended speed: 36.4 km/h
+  • Throttle: 31.0%
+  • Steer: 11.5°
+
+Distance 11140–11160 m:
+  • Sharp turn, Flat
+  • Recommended speed: 37.9 km/h
+  • Throttle: 33.1%
+  • Steer: -4.8°
+
+Distance 11160–11180 m:
+  • Mild turn, Uphill
+  • Recommended speed: 37.4 km/h
+  • Throttle: 61.1%
+  • Steer: 4.7°
+
+Distance 11180–11200 m:
+  • Straight, Uphill
+  • Recommended speed: 35.7 km/h
+  • Throttle: 64.8%
+  • Steer: 19.6°
+
+Distance 11200–11220 m:
+  • Straight, Flat
+  • Recommended speed: 34.2 km/h
+  • Throttle: 59.8%
+  • Steer: 6.4°
+
+Distance 11220–11240 m:
+  • Straight, Flat
+  • Recommended speed: 34.1 km/h
+  • Throttle: 57.7%
+  • Steer: 10.1°
+
+Distance 11240–11260 m:
+  • Straight, Downhill
+  • Recommended speed: 36.1 km/h
+  • Throttle: 70.8%
+  • Steer: 6.1°
+
+Distance 11260–11280 m:
+  • Straight, Downhill
+  • Recommended speed: 38.2 km/h
+  • Throttle: 34.5%
+  • Steer: 23.7°
+
+Distance 11280–11300 m:
+  • Straight, Flat
+  • Recommended speed: 40.2 km/h
+  • Throttle: 46.8%
+  • Steer: -16.7°
+
+Distance 11300–11320 m:
+  • Straight, Flat
+  • Recommended speed: 42.2 km/h
+  • Throttle: 21.0%
+  • Steer: 12.6°
+
+Distance 11320–11340 m:
+  • Straight, Uphill
+  • Recommended speed: 39.4 km/h
+  • Throttle: 4.7%
+  • Steer: -21.7°
+
+Distance 11340–11360 m:
+  • Straight, Uphill
+  • Recommended speed: 36.7 km/h
+  • Throttle: 26.2%
+  • Steer: 7.7°
+
+Distance 11360–11380 m:
+  • Straight, Uphill
+  • Recommended speed: 31.4 km/h
+  • Throttle: 2.6%
+  • Steer: -11.6°
+
+Distance 11380–11400 m:
+  • Straight, Uphill
+  • Recommended speed: 28.4 km/h
+  • Throttle: 72.7%
+  • Steer: 16.0°
+
+Distance 11400–11420 m:
+  • Straight, Flat
+  • Recommended speed: 28.3 km/h
+  • Throttle: 75.7%
+  • Steer: -8.4°
+
+Distance 11420–11440 m:
+  • Straight, Uphill
+  • Recommended speed: 29.3 km/h
+  • Throttle: 77.2%
+  • Steer: -7.8°
+
+Distance 11440–11460 m:
+  • Straight, Flat
+  • Recommended speed: 29.9 km/h
+  • Throttle: 62.7%
+  • Steer: -7.1°
+
+Distance 11460–11480 m:
+  • Straight, Downhill
+  • Recommended speed: 33.2 km/h
+  • Throttle: 79.0%
+  • Steer: 21.1°
+
+Distance 11480–11500 m:
+  • Straight, Flat
+  • Recommended speed: 33.5 km/h
+  • Throttle: 42.5%
+  • Steer: -13.2°
+
+Distance 11500–11520 m:
+  • Straight, Flat
+  • Recommended speed: 33.4 km/h
+  • Throttle: 72.7%
+  • Steer: -24.8°
+
+Distance 11520–11540 m:
+  • Mild turn, Uphill
+  • Recommended speed: 32.8 km/h
+  • Throttle: 14.6%
+  • Steer: -7.0°
+
+Distance 11540–11560 m:
+  • Straight, Flat
+  • Recommended speed: 30.2 km/h
+  • Throttle: 79.8%
+  • Steer: 4.7°
+
+Distance 11560–11580 m:
+  • Mild turn, Downhill
+  • Recommended speed: 31.2 km/h
+  • Throttle: 62.1%
+  • Steer: -0.2°
+
+Distance 11580–11600 m:
+  • Mild turn, Downhill
+  • Recommended speed: 33.2 km/h
+  • Throttle: 62.5%
+  • Steer: 24.8°
+
+Distance 11600–11620 m:
+  • Sharp turn, Downhill
+  • Recommended speed: 34.6 km/h
+  • Throttle: 34.9%
+  • Steer: -4.2°
+
+Distance 11620–11640 m:
+  • Sharp turn, Uphill
+  • Recommended speed: 32.2 km/h
+  • Throttle: 21.3%
+  • Steer: 12.7°
+
+Distance 11640–11660 m:
+  • Sharp turn, Uphill
+  • Recommended speed: 23.0 km/h
+  • Throttle: 75.4%
+  • Steer: 17.2°
+
+Distance 11660–11680 m:
+  • Sharp turn, Flat
+  • Recommended speed: 25.0 km/h
+  • Throttle: 79.7%
+  • Steer: -12.1°
+
+Distance 11680–11700 m:
+  • Sharp turn, Flat
+  • Recommended speed: 27.8 km/h
+  • Throttle: 68.7%
+  • Steer: 5.0°
+
+Distance 11700–11720 m:
+  • Sharp turn, Downhill
+  • Recommended speed: 33.6 km/h
+  • Throttle: 27.2%
+  • Steer: -2.4°
+
+Distance 11720–11740 m:
+  • Sharp turn, Downhill
+  • Recommended speed: 36.7 km/h
+  • Throttle: 47.4%
+  • Steer: 1.4°
+
+Distance 11740–11760 m:
+  • Mild turn, Flat
+  • Recommended speed: 39.4 km/h
+  • Throttle: 39.0%
+  • Steer: 10.2°
+
+Distance 11760–11780 m:
+  • Mild turn, Downhill
+  • Recommended speed: 39.7 km/h
+  • Throttle: 48.3%
+  • Steer: -15.8°
+
+Distance 11780–11800 m:
+  • Mild turn, Flat
+  • Recommended speed: 39.4 km/h
+  • Throttle: 56.9%
+  • Steer: 4.0°
+
+Distance 11800–11820 m:
+  • Mild turn, Uphill
+  • Recommended speed: 37.5 km/h
+  • Throttle: 70.4%
+  • Steer: -0.4°
+
+Distance 11820–11840 m:
+  • Straight, Uphill
+  • Recommended speed: 34.9 km/h
+  • Throttle: 36.1%
+  • Steer: 8.3°
+
+Distance 11840–11860 m:
+  • Straight, Flat
+  • Recommended speed: 32.2 km/h
+  • Throttle: 54.2%
+  • Steer: -2.9°
+
+Distance 11860–11880 m:
+  • Straight, Flat
+  • Recommended speed: 31.8 km/h
+  • Throttle: 56.3%
+  • Steer: -11.6°
+
+Distance 11880–11900 m:
+  • Straight, Flat
+  • Recommended speed: 31.3 km/h
+  • Throttle: 9.6%
+  • Steer: 10.6°
+
+Distance 11900–11920 m:
+  • Mild turn, Flat
+  • Recommended speed: 33.5 km/h
+  • Throttle: 59.8%
+  • Steer: -2.1°
+
+Distance 11920–11940 m:
+  • Straight, Flat
+  • Recommended speed: 33.4 km/h
+  • Throttle: 51.1%
+  • Steer: -11.8°
+
+Distance 11940–11960 m:
+  • Straight, Flat
+  • Recommended speed: 32.6 km/h
+  • Throttle: 40.7%
+  • Steer: -2.8°
+
+Distance 11960–11980 m:
+  • Straight, Downhill
+  • Recommended speed: 31.0 km/h
+  • Throttle: 44.1%
+  • Steer: 13.7°
+
+Distance 11980–12000 m:
+  • Straight, Downhill
+  • Recommended speed: 32.3 km/h
+  • Throttle: 29.7%
+  • Steer: -5.3°
+
+Distance 12000–12020 m:
+  • Straight, Flat
+  • Recommended speed: 33.4 km/h
+  • Throttle: 70.0%
+  • Steer: 4.4°
+
+Distance 12020–12040 m:
+  • Straight, Flat
+  • Recommended speed: 34.0 km/h
+  • Throttle: 72.9%
+  • Steer: -1.9°
+
+Distance 12040–12060 m:
+  • Straight, Downhill
+  • Recommended speed: 34.8 km/h
+  • Throttle: 13.2%
+  • Steer: 8.1°
+
+Distance 12060–12080 m:
+  • Mild turn, Uphill
+  • Recommended speed: 34.2 km/h
+  • Throttle: 67.3%
+  • Steer: 6.3°
+
+Distance 12080–12100 m:
+  • Mild turn, Flat
+  • Recommended speed: 31.8 km/h
+  • Throttle: 48.3%
+  • Steer: -18.3°
+
+Distance 12100–12120 m:
+  • Mild turn, Flat
+  • Recommended speed: 31.0 km/h
+  • Throttle: 32.9%
+  • Steer: 7.0°
+
+Distance 12120–12140 m:
+  • Sharp turn, Flat
+  • Recommended speed: 29.9 km/h
+  • Throttle: 62.7%
+  • Steer: -7.1°
+
+Distance 12140–12160 m:
+  • Sharp turn, Flat
+  • Recommended speed: 30.6 km/h
+  • Throttle: 8.7%
+  • Steer: 1.1°
+
+Distance 12160–12180 m:
+  • Mild turn, Uphill
+  • Recommended speed: 29.4 km/h
+  • Throttle: 76.0%
+  • Steer: 24.7°
+
+Distance 12180–12200 m:
+  • Mild turn, Flat
+  • Recommended speed: 29.5 km/h
+  • Throttle: 75.0%
+  • Steer: 9.1°
+
+Distance 12200–12220 m:
+  • Mild turn, Uphill
+  • Recommended speed: 29.9 km/h
+  • Throttle: 71.6%
+  • Steer: -2.2°
+
+Distance 12220–12240 m:
+  • Mild turn, Uphill
+  • Recommended speed: 29.2 km/h
+  • Throttle: 78.5%
+  • Steer: 17.6°
+
+Distance 12240–12260 m:
+  • Straight, Flat
+  • Recommended speed: 30.3 km/h
+  • Throttle: 67.6%
+  • Steer: -12.3°
+
+Distance 12260–12280 m:
+  • Straight, Uphill
+  • Recommended speed: 30.1 km/h
+  • Throttle: 44.7%
+  • Steer: 15.9°
+
+Distance 12280–12300 m:
+  • Mild turn, Flat
+  • Recommended speed: 30.0 km/h
+  • Throttle: 5.4%
+  • Steer: 3.4°
+
+Distance 12300–12320 m:
+  • Mild turn, Flat
+  • Recommended speed: 30.3 km/h
+  • Throttle: 59.1%
+  • Steer: 10.2°
+
+Distance 12320–12340 m:
+  • Mild turn, Flat
+  • Recommended speed: 30.9 km/h
+  • Throttle: 61.1%
+  • Steer: 7.8°
+
+Distance 12340–12360 m:
+  • Straight, Flat
+  • Recommended speed: 30.2 km/h
+  • Throttle: 17.4%
+  • Steer: 7.7°
+
+Distance 12360–12380 m:
+  • Straight, Uphill
+  • Recommended speed: 30.1 km/h
+  • Throttle: 43.6%
+  • Steer: -1.3°
+
+Distance 12380–12400 m:
+  • Straight, Flat
+  • Recommended speed: 29.8 km/h
+  • Throttle: 37.8%
+  • Steer: 7.2°
+
+Distance 12400–12420 m:
+  • Straight, Flat
+  • Recommended speed: 29.9 km/h
+  • Throttle: 28.2%
+  • Steer: -22.9°
+
+Distance 12420–12440 m:
+  • Mild turn, Flat
+  • Recommended speed: 30.0 km/h
+  • Throttle: 12.9%
+  • Steer: 7.4°
+
+Distance 12440–12460 m:
+  • Mild turn, Downhill
+  • Recommended speed: 32.2 km/h
+  • Throttle: 4.7%
+  • Steer: -16.5°
+
+Distance 12460–12480 m:
+  • Straight, Flat
+  • Recommended speed: 33.1 km/h
+  • Throttle: 35.5%
+  • Steer: 8.2°
+
+Distance 12480–12500 m:
+  • Straight, Downhill
+  • Recommended speed: 33.3 km/h
+  • Throttle: 34.3%
+  • Steer: 17.4°
+
+Distance 12500–12520 m:
+  • Straight, Downhill
+  • Recommended speed: 35.4 km/h
+  • Throttle: 26.3%
+  • Steer: 14.8°
+
+Distance 12520–12540 m:
+  • Straight, Downhill
+  • Recommended speed: 37.5 km/h
+  • Throttle: 70.9%
+  • Steer: -14.1°
+
+Distance 12540–12560 m:
+  • Straight, Flat
+  • Recommended speed: 38.7 km/h
+  • Throttle: 72.8%
+  • Steer: 14.4°
+
+Distance 12560–12580 m:
+  • Mild turn, Flat
+  • Recommended speed: 38.1 km/h
+  • Throttle: 43.1%
+  • Steer: 10.9°
+
+Distance 12580–12600 m:
+  • Straight, Flat
+  • Recommended speed: 37.6 km/h
+  • Throttle: 16.9%
+  • Steer: -11.9°
+
+Distance 12600–12620 m:
+  • Straight, Uphill
+  • Recommended speed: 36.5 km/h
+  • Throttle: 47.5%
+  • Steer: -4.3°
+
+Distance 12620–12640 m:
+  • Mild turn, Uphill
+  • Recommended speed: 34.6 km/h
+  • Throttle: 29.8%
+  • Steer: 24.6°
+
+Distance 12640–12660 m:
+  • Mild turn, Flat
+  • Recommended speed: 34.3 km/h
+  • Throttle: 25.3%
+  • Steer: -1.1°
+
+Distance 12660–12680 m:
+  • Straight, Uphill
+  • Recommended speed: 32.0 km/h
+  • Throttle: 45.3%
+  • Steer: -7.8°
+
+Distance 12680–12700 m:
+  • Straight, Downhill
+  • Recommended speed: 30.3 km/h
+  • Throttle: 77.9%
+  • Steer: 11.6°
+
+Distance 12700–12720 m:
+  • Straight, Flat
+  • Recommended speed: 30.9 km/h
+  • Throttle: 73.5%
+  • Steer: -13.7°
+
+Distance 12720–12740 m:
+  • Straight, Uphill
+  • Recommended speed: 30.4 km/h
+  • Throttle: 44.7%
+  • Steer: 0.8°
+
+Distance 12740–12760 m:
+  • Straight, Flat
+  • Recommended speed: 30.0 km/h
+  • Throttle: 11.1%
+  • Steer: -18.4°
+
+Distance 12760–12780 m:
+  • Straight, Downhill
+  • Recommended speed: 30.5 km/h
+  • Throttle: 75.7%
+  • Steer: -0.5°
+
+Distance 12780–12800 m:
+  • Straight, Downhill
+  • Recommended speed: 35.1 km/h
+  • Throttle: 23.3%
+  • Steer: -10.9°
+
+Distance 12800–12820 m:
+  • Straight, Downhill
+  • Recommended speed: 38.1 km/h
+  • Throttle: 32.3%
+  • Steer: -5.8°
+
+Distance 12820–12840 m:
+  • Straight, Downhill
+  • Recommended speed: 40.1 km/h
+  • Throttle: 47.1%
+  • Steer: 9.1°
+
+Distance 12840–12860 m:
+  • Mild turn, Downhill
+  • Recommended speed: 40.9 km/h
+  • Throttle: 63.7%
+  • Steer: 20.4°
+
+Distance 12860–12880 m:
+  • Mild turn, Flat
+  • Recommended speed: 39.7 km/h
+  • Throttle: 72.7%
+  • Steer: 16.6°
+
+Distance 12880–12900 m:
+  • Sharp turn, Uphill
+  • Recommended speed: 38.2 km/h
+  • Throttle: 76.1%
+  • Steer: -11.6°
+
+Distance 12900–12920 m:
+  • Mild turn, Flat
+  • Recommended speed: 36.3 km/h
+  • Throttle: 75.7%
+  • Steer: 0.9°
+
+Distance 12920–12940 m:
+  • Sharp turn, Flat
+  • Recommended speed: 36.2 km/h
+  • Throttle: 53.0%
+  • Steer: 2.3°
+
+Distance 12940–12960 m:
+  • Sharp turn, Uphill
+  • Recommended speed: 35.2 km/h
+  • Throttle: 6.3%
+  • Steer: 16.9°
+
+Distance 12960–12980 m:
+  • Sharp turn, Uphill
+  • Recommended speed: 32.5 km/h
+  • Throttle: 3.0%
+  • Steer: 19.8°
+
+Distance 12980–13000 m:
+  • Mild turn, Flat
+  • Recommended speed: 30.9 km/h
+  • Throttle: 67.8%
+  • Steer: -8.9°
+
+Distance 13000–13020 m:
+  • Straight, Downhill
+  • Recommended speed: 29.8 km/h
+  • Throttle: 60.3%
+  • Steer: -23.5°
+
+Distance 13020–13040 m:
+  • Straight, Flat
+  • Recommended speed: 31.1 km/h
+  • Throttle: 0.2%
+  • Steer: 7.9°
+
+Distance 13040–13060 m:
+  • Straight, Downhill
+  • Recommended speed: 32.6 km/h
+  • Throttle: 30.5%
+  • Steer: 4.2°
+
+Distance 13060–13080 m:
+  • Straight, Downhill
+  • Recommended speed: 34.0 km/h
+  • Throttle: 53.0%
+  • Steer: -3.6°
+
+Distance 13080–13100 m:
+  • Sharp turn, Downhill
+  • Recommended speed: 35.5 km/h
+  • Throttle: 68.1%
+  • Steer: -17.9°
+
+Distance 13100–13120 m:
+  • Sharp turn, Downhill
+  • Recommended speed: 38.1 km/h
+  • Throttle: 41.1%
+  • Steer: -19.3°
+
+Distance 13120–13140 m:
+  • Sharp turn, Downhill
+  • Recommended speed: 40.0 km/h
+  • Throttle: 30.2%
+  • Steer: -11.3°
+
+Distance 13140–13160 m:
+  • Mild turn, Flat
+  • Recommended speed: 41.0 km/h
+  • Throttle: 37.1%
+  • Steer: 20.1°
+
+Distance 13160–13180 m:
+  • Straight, Uphill
+  • Recommended speed: 40.0 km/h
+  • Throttle: 35.4%
+  • Steer: -5.3°
+
+Distance 13180–13200 m:
+  • Straight, Uphill
+  • Recommended speed: 35.9 km/h
+  • Throttle: 66.1%
+  • Steer: -0.1°
+
+Distance 13200–13220 m:
+  • Straight, Uphill
+  • Recommended speed: 28.4 km/h
+  • Throttle: 72.1%
+  • Steer: 8.1°
+
+Distance 13220–13240 m:
+  • Straight, Uphill
+  • Recommended speed: 24.8 km/h
+  • Throttle: 73.1%
+  • Steer: 21.1°
+
+Distance 13240–13260 m:
+  • Straight, Uphill
+  • Recommended speed: 24.5 km/h
+  • Throttle: 67.9%
+  • Steer: 10.6°
+
+Distance 13260–13280 m:
+  • Straight, Uphill
+  • Recommended speed: 24.8 km/h
+  • Throttle: 68.1%
+  • Steer: 16.0°
+
+Distance 13280–13300 m:
+  • Sharp turn, Uphill
+  • Recommended speed: 24.5 km/h
+  • Throttle: 53.4%
+  • Steer: 19.4°
+
+Distance 13300–13320 m:
+  • Sharp turn, Flat
+  • Recommended speed: 28.3 km/h
+  • Throttle: 64.8%
+  • Steer: 7.2°
+
+Distance 13320–13340 m:
+  • Sharp turn, Downhill
+  • Recommended speed: 31.2 km/h
+  • Throttle: 13.0%
+  • Steer: -23.9°
+
+Distance 13340–13360 m:
+  • Sharp turn, Downhill
+  • Recommended speed: 34.5 km/h
+  • Throttle: 22.1%
+  • Steer: 23.0°
+
+Distance 13360–13380 m:
+  • Straight, Downhill
+  • Recommended speed: 39.1 km/h
+  • Throttle: 47.3%
+  • Steer: -0.8°
+
+Distance 13380–13400 m:
+  • Straight, Flat
+  • Recommended speed: 39.1 km/h
+  • Throttle: 75.1%
+  • Steer: 21.9°
+
+Distance 13400–13420 m:
+  • Straight, Uphill
+  • Recommended speed: 37.1 km/h
+  • Throttle: 64.0%
+  • Steer: -16.5°
+
+Distance 13420–13440 m:
+  • Straight, Flat
+  • Recommended speed: 34.2 km/h
+  • Throttle: 10.5%
+  • Steer: -4.5°
+
+Distance 13440–13460 m:
+  • Straight, Flat
+  • Recommended speed: 33.4 km/h
+  • Throttle: 18.7%
+  • Steer: -23.3°
+
+Distance 13460–13480 m:
+  • Straight, Flat
+  • Recommended speed: 34.0 km/h
+  • Throttle: 71.6%
+  • Steer: -7.7°
+
+Distance 13480–13500 m:
+  • Straight, Flat
+  • Recommended speed: 33.9 km/h
+  • Throttle: 47.9%
+  • Steer: 21.9°
+
+Distance 13500–13520 m:
+  • Straight, Downhill
+  • Recommended speed: 35.8 km/h
+  • Throttle: 50.7%
+  • Steer: -5.1°
+
+Distance 13520–13540 m:
+  • Straight, Downhill
+  • Recommended speed: 37.5 km/h
+  • Throttle: 28.0%
+  • Steer: 15.1°
+
+Distance 13540–13560 m:
+  • Straight, Flat
+  • Recommended speed: 38.4 km/h
+  • Throttle: 69.1%
+  • Steer: 11.8°
+
+Distance 13560–13580 m:
+  • Straight, Uphill
+  • Recommended speed: 36.8 km/h
+  • Throttle: 32.1%
+  • Steer: 18.2°
+
+Distance 13580–13600 m:
+  • Straight, Downhill
+  • Recommended speed: 35.5 km/h
+  • Throttle: 50.7%
+  • Steer: -12.8°
+
+Distance 13600–13620 m:
+  • Mild turn, Downhill
+  • Recommended speed: 36.2 km/h
+  • Throttle: 55.3%
+  • Steer: -17.3°
+
+Distance 13620–13640 m:
+  • Sharp turn, Downhill
+  • Recommended speed: 40.5 km/h
+  • Throttle: 0.8%
+  • Steer: 21.8°
+
+Distance 13640–13660 m:
+  • Sharp turn, Downhill
+  • Recommended speed: 42.0 km/h
+  • Throttle: 49.5%
+  • Steer: 13.5°
+
+Distance 13660–13680 m:
+  • Sharp turn, Flat
+  • Recommended speed: 42.0 km/h
+  • Throttle: 16.1%
+  • Steer: 23.3°
+
+Distance 13680–13700 m:
+  • Mild turn, Uphill
+  • Recommended speed: 39.7 km/h
+  • Throttle: 26.9%
+  • Steer: -10.8°
+
+Distance 13700–13720 m:
+  • Straight, Uphill
+  • Recommended speed: 37.2 km/h
+  • Throttle: 5.6%
+  • Steer: -19.2°
+
+Distance 13720–13740 m:
+  • Straight, Uphill
+  • Recommended speed: 32.5 km/h
+  • Throttle: 29.8%
+  • Steer: 2.8°
+
+Distance 13740–13760 m:
+  • Straight, Flat
+  • Recommended speed: 31.0 km/h
+  • Throttle: 73.3%
+  • Steer: 20.6°
+
+Distance 13760–13780 m:
+  • Straight, Downhill
+  • Recommended speed: 32.3 km/h
+  • Throttle: 79.4%
+  • Steer: -22.7°
+
+Distance 13780–13800 m:
+  • Straight, Flat
+  • Recommended speed: 31.9 km/h
+  • Throttle: 12.3%
+  • Steer: -7.2°
+
+Distance 13800–13820 m:
+  • Straight, Flat
+  • Recommended speed: 32.2 km/h
+  • Throttle: 45.4%
+  • Steer: 22.4°
+
+Distance 13820–13840 m:
+  • Straight, Flat
+  • Recommended speed: 32.4 km/h
+  • Throttle: 32.8%
+  • Steer: -15.3°
+
+Distance 13840–13860 m:
+  • Straight, Flat
+  • Recommended speed: 32.6 km/h
+  • Throttle: 76.3%
+  • Steer: 24.9°
+
+Distance 13860–13880 m:
+  • Straight, Flat
+  • Recommended speed: 32.3 km/h
+  • Throttle: 19.3%
+  • Steer: -4.5°
+
+Distance 13880–13900 m:
+  • Straight, Flat
+  • Recommended speed: 31.7 km/h
+  • Throttle: 73.4%
+  • Steer: -5.4°
+
+Distance 13900–13920 m:
+  • Straight, Uphill
+  • Recommended speed: 29.2 km/h
+  • Throttle: 78.8%
+  • Steer: 5.7°
+
+Distance 13920–13940 m:
+  • Straight, Flat
+  • Recommended speed: 28.6 km/h
+  • Throttle: 67.4%
+  • Steer: 9.9°
+
+Distance 13940–13960 m:
+  • Straight, Flat
+  • Recommended speed: 30.0 km/h
+  • Throttle: 75.7%
+  • Steer: -2.8°
+
+Distance 13960–13980 m:
+  • Straight, Downhill
+  • Recommended speed: 31.2 km/h
+  • Throttle: 9.6%
+  • Steer: 9.4°
+
+Distance 13980–14000 m:
+  • Straight, Downhill
+  • Recommended speed: 33.4 km/h
+  • Throttle: 35.0%
+  • Steer: 15.3°
+
+Distance 14000–14020 m:
+  • Straight, Downhill
+  • Recommended speed: 36.5 km/h
+  • Throttle: 63.7%
+  • Steer: -4.1°
+
+Distance 14020–14040 m:
+  • Straight, Downhill
+  • Recommended speed: 41.5 km/h
+  • Throttle: 48.5%
+  • Steer: -3.9°
+
+Distance 14040–14060 m:
+  • Mild turn, Downhill
+  • Recommended speed: 48.8 km/h
+  • Throttle: 30.7%
+  • Steer: 11.6°
+
+Distance 14060–14080 m:
+  • Sharp turn, Downhill
+  • Recommended speed: 50.6 km/h
+  • Throttle: 61.5%
+  • Steer: 3.8°
+
+Distance 14080–14100 m:
+  • Sharp turn, Uphill
+  • Recommended speed: 46.7 km/h
+  • Throttle: 54.4%
+  • Steer: -3.7°
+
+Distance 14100–14120 m:
+  • Sharp turn, Uphill
+  • Recommended speed: 39.4 km/h
+  • Throttle: 70.8%
+  • Steer: -7.1°
+
+Distance 14120–14140 m:
+  • Sharp turn, Uphill
+  • Recommended speed: 25.0 km/h
+  • Throttle: 66.8%
+  • Steer: 13.3°
+
+Distance 14140–14160 m:
+  • Sharp turn, Uphill
+  • Recommended speed: 27.1 km/h
+  • Throttle: 77.4%
+  • Steer: -18.8°
+
+Distance 14160–14180 m:
+  • Sharp turn, Uphill
+  • Recommended speed: 27.7 km/h
+  • Throttle: 61.8%
+  • Steer: -5.2°
+
+Distance 14180–14200 m:
+  • Mild turn, Flat
+  • Recommended speed: 30.1 km/h
+  • Throttle: 36.9%
+  • Steer: -19.5°
+
+Distance 14200–14220 m:
+  • Straight, Uphill
+  • Recommended speed: 30.2 km/h
+  • Throttle: 76.1%
+  • Steer: -9.5°
+
+Distance 14220–14240 m:
+  • Straight, Flat
+  • Recommended speed: 30.7 km/h
+  • Throttle: 57.3%
+  • Steer: -7.6°
+
+Distance 14240–14260 m:
+  • Straight, Downhill
+  • Recommended speed: 33.4 km/h
+  • Throttle: 37.3%
+  • Steer: -21.5°
+
+Distance 14260–14280 m:
+  • Straight, Downhill
+  • Recommended speed: 35.5 km/h
+  • Throttle: 6.7%
+  • Steer: 5.9°
+
+Distance 14280–14300 m:
+  • Straight, Flat
+  • Recommended speed: 36.4 km/h
+  • Throttle: 71.1%
+  • Steer: 8.9°
+
+Distance 14300–14320 m:
+  • Straight, Flat
+  • Recommended speed: 35.9 km/h
+  • Throttle: 44.4%
+  • Steer: 17.0°
+
+Distance 14320–14340 m:
+  • Straight, Flat
+  • Recommended speed: 36.1 km/h
+  • Throttle: 44.0%
+  • Steer: -11.6°
+
+Distance 14340–14360 m:
+  • Straight, Uphill
+  • Recommended speed: 34.3 km/h
+  • Throttle: 50.2%
+  • Steer: -8.5°
+
+Distance 14360–14380 m:
+  • Straight, Uphill
+  • Recommended speed: 29.5 km/h
+  • Throttle: 3.8%
+  • Steer: 0.6°
+
+Distance 14380–14400 m:
+  • Straight, Uphill
+  • Recommended speed: 28.8 km/h
+  • Throttle: 45.0%
+  • Steer: -21.1°
+
+Distance 14400–14420 m:
+  • Straight, Uphill
+  • Recommended speed: 27.5 km/h
+  • Throttle: 78.4%
+  • Steer: 19.7°
+
+Distance 14420–14440 m:
+  • Straight, Downhill
+  • Recommended speed: 29.9 km/h
+  • Throttle: 58.5%
+  • Steer: 9.0°
+
+Distance 14440–14460 m:
+  • Straight, Downhill
+  • Recommended speed: 32.4 km/h
+  • Throttle: 36.2%
+  • Steer: 12.7°
+
+Distance 14460–14480 m:
+  • Straight, Flat
+  • Recommended speed: 33.1 km/h
+  • Throttle: 44.1%
+  • Steer: 21.2°
+
+Distance 14480–14500 m:
+  • Straight, Flat
+  • Recommended speed: 33.5 km/h
+  • Throttle: 7.6%
+  • Steer: 1.1°
+
+Distance 14500–14520 m:
+  • Straight, Flat
+  • Recommended speed: 32.2 km/h
+  • Throttle: 53.0%
+  • Steer: -9.0°
+
+Distance 14520–14540 m:
+  • Straight, Downhill
+  • Recommended speed: 31.2 km/h
+  • Throttle: 2.2%
+  • Steer: 1.5°
+
+Distance 14540–14560 m:
+  • Straight, Downhill
+  • Recommended speed: 33.9 km/h
+  • Throttle: 6.5%
+  • Steer: 24.3°
+
+Distance 14560–14580 m:
+  • Straight, Downhill
+  • Recommended speed: 36.3 km/h
+  • Throttle: 23.1%
+  • Steer: 4.2°
+
+Distance 14580–14600 m:
+  • Straight, Downhill
+  • Recommended speed: 39.3 km/h
+  • Throttle: 57.4%
+  • Steer: 15.8°
+
+Distance 14600–14620 m:
+  • Straight, Flat
+  • Recommended speed: 40.8 km/h
+  • Throttle: 14.5%
+  • Steer: -18.7°
+
+Distance 14620–14640 m:
+  • Straight, Uphill
+  • Recommended speed: 40.1 km/h
+  • Throttle: 75.9%
+  • Steer: 7.2°
+
+Distance 14640–14660 m:
+  • Straight, Flat
+  • Recommended speed: 38.5 km/h
+  • Throttle: 32.0%
+  • Steer: -20.9°
+
+Distance 14660–14680 m:
+  • Straight, Uphill
+  • Recommended speed: 36.9 km/h
+  • Throttle: 75.5%
+  • Steer: -11.0°
+
+Distance 14680–14700 m:
+  • Straight, Flat
+  • Recommended speed: 35.0 km/h
+  • Throttle: 44.0%
+  • Steer: -7.6°
+
+Distance 14700–14720 m:
+  • Mild turn, Uphill
+  • Recommended speed: 32.3 km/h
+  • Throttle: 27.4%
+  • Steer: -3.0°
+
