@@ -4,11 +4,12 @@ from config import car_config
 from src.utils import *
 
 track = load_track_from_csv("sem_apme_2025-track_coordinates.csv")
+OUTPUT_DIR = "results_smoother_driving"
 
 # log, final_state = run_simulation(track, car_config)
 
 log, final_state = run_mpc_simulation(track, car_config, debug_step=100)
-save_log_to_json(log, "./results_smoother_driving/log.json")
-generate_pace_notes(log, track, "./results_smoother_driving/pace_notes.txt")
-export_mpc_csv(log, track, "./results_smoother_driving/driving_instructions.csv")
+save_log_to_json(log, f"./{OUTPUT_DIR}/log.json")
+generate_pace_notes(log, track, f"./{OUTPUT_DIR}/pace_notes.txt")
+export_mpc_csv(log, track, f"./{OUTPUT_DIR}/driving_instructions.csv")
 animate_car_with_telemetry(log, track, car_config)
