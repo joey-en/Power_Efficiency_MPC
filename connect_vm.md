@@ -1,6 +1,10 @@
 # Conenct to VM
 
-## 1. SSH into the VM
+## 1. Connect to UDST Global Protect VPN 
+
+Check Parallel Lab 1 Student Guide to Global Protect VPN to set it up
+
+## 2. SSH into the VM
 
 Open PowerShell or your terminal and run:
 
@@ -10,7 +14,7 @@ ssh student@10.125.85.10
 
 ```
 
-## 2. Start Jupyter Notebook on the VM
+## 3. Start Jupyter Notebook on the VM
 
 Inside the VM, run:
 
@@ -18,21 +22,22 @@ Inside the VM, run:
 
 source notebook-env/bin/activate
 
-jupyter notebook--no-browser--ip=0.0.0.0--port=8888
+jupyter notebook --no-browser --ip=0.0.0.0 --port=8888
 
 ```
 
-## 3. Create an SSH Tunnel from Your Laptop
+## 4. Create an SSH Tunnel from Your Laptop
 
 Open **a second** terminal on your laptop and run:
 
 ```bash
 
-ssh -L8888:localhost:8888student@10.125.85.10
+ssh -L8888:localhost:8888 student@10.125.85.10
 
 ```
 
-## 4 Check GPU config
+## (Optional) Check GPU config
+
 ```bash
 
 ! nvidia-smi
